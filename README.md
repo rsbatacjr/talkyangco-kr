@@ -1,1 +1,1 @@
-# talkyangco
+# talkyangco-kr
