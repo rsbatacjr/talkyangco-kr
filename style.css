@@ -290,7 +290,6 @@ Author Email: reynaldo.batac@outlook.com
 #campaign-list {
 	padding: 0;
 	list-style: none;
-	text-align: center;
 }
 #campaign-list li a {
 	min-height: 62px;
