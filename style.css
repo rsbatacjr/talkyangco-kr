@@ -334,6 +334,102 @@ footer #footer-menu ul li a {
 	min-height: 160px;
 }
 
+.course-notes tr td {
+	padding: 15px 10px !important;
+	vertical-align: middle !important;
+	border-bottom: 1px solid #c0c0c0 !important;
+}
+
+.course-notes tr td:first-child {
+	border-right: 1px dashed #c0c0c0;
+	text-align: right;
+}
+
+#course-offered {
+	background-color: rgb(59,56,56);
+	color: #fff;
+}
+#course-offered h3 {
+	text-align: right;
+}
+
+#course-offered table tr td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+h2 {
+	text-align: center;
+	line-height: 1em;
+	font-size: 24px;
+	background-color: #c0c0c0;
+	padding: 3px !important;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.class-schedule tr td {
+	vertical-align: middle;
+	text-align: center;
+}
+.class-schedule tr td p, .class-schedule tr td ul {
+	text-align: left;
+}
+
+.class-schedule tr td ul {
+	margin: 25px 0;
+}
+
+.class-schedule tr td ul li {
+	color: #ff0000;
+}
+.class-schedule tr td ul li p {
+	color: #000;
+}
+
+#esl-course {
+	margin-bottom: 15px;
+	background-color: rgb(249, 251, 252)
+}
+.red-text {
+	color: #ff0000;
+}
+
+#esl-521-pink {
+	margin-bottom: 15px;
+	background-color: rgb(228, 76, 166);
+	padding: 15px;
+	color: #fff;
+}
+
+#esl-521-blue {
+	margin-bottom: 15px;
+	background-color: rgb(46, 162, 204);
+	padding: 15px;
+	color: #fff;
+}
+
+#esl-521-pink table tr td, #esl-521-blue table tr td {
+	text-align: center;
+}
+#esl-521-pink em, #esl-521-blue em {
+	font-size: 10px;
+	text-align: center;
+	display: block;
+}
+
+.white-border-button {
+	border: 1px solid #fff;
+	background-color: transparent;
+	padding: 15px;
+	width: 80%;
+	margin: 0 10% 10px 10%;
+}
+
+.align-bottom {
+	position: absolute;
+	bottom:0;
+}
 @media (min-width: 768px) {
 	#weblinks {
 		text-align: right;
