@@ -5,6 +5,8 @@ define('THEME_URI', get_template_directory_uri());
 require_once('manage-schedule.php');
 require_once('manage-weblinks.php');
 
+add_theme_support( 'post-thumbnails' );
+
 add_action('wp_enqueue_scripts', 'talkyangco_scripts');
 function talkyangco_scripts() {
 	wp_enqueue_style('bootstrap', THEME_URI.'/css/bootstrap.min.css');
