@@ -6,6 +6,10 @@ Version: 2
 Author: Reynaldo S. Batac Jr.
 Author Email: reynaldo.batac@outlook.com
 */
+* {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, メイリオ, Osaka, "MS PGothic", helvetica, sans-serif;
+    font-size: 100%;
+}
 .mask {
 	position: absolute;
 	top: 0;
