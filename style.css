@@ -458,6 +458,7 @@ h2 {
 	#qualified-programs {
 		min-height: 336px;
 		background: url('img/qualified-programs.png');
+		background-size: cover;
 	}
 	.course-builder {
 		min-height: 70px;
