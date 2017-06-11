@@ -5,78 +5,78 @@
 							<div class="row">
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">介绍</a></li>
+										<li><a href="">학교소개</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">关于我们</a></li>
-										<li><a href="">问候</a></li>
-										<li><a href="">优势</a></li>
-										<li><a href="">位置</a></li>
+										<li><a href="">연혁</a></li>
+										<li><a href="">인사말</a></li>
+										<li><a href="">특징</a></li>
+										<li><a href="">오시는 길</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">过程</a></li>
+										<li><a href="">유학까지의 흐름</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">程序</a></li>
-										<li><a href="">关于准备</a></li>
+										<li><a href="">유학까지의 흐름</a></li>
+										<li><a href="">유학준비에 대해</a></li>
 										<li><a href="">FAQ</a></li>
-										<li><a href="">医药和保险系统</a></li>
-										<li><a href="">如何来碧瑶</a></li>
-										<li><a href="">竞技</a></li>
+										<li><a href="">의료 체제와 보험</a></li>
+										<li><a href="">바기오 가는 방법</a></li>
+										<li><a href="">캠페인</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">注册</a></li>
+										<li><a href="">연수비용</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">学费</a></li>
-										<li><a href="">宿舍类型</a></li>
-										<li><a href="">其他费用</a></li>
-										<li><a href="">IELTS官方考试日期</a></li>
-										<li><a href="">TOEIC官方考试日期</a></li>
-										<li><a href="">菲律宾假日</a></li>
-										<li><a href="">官方接机日</a></li>
-										<li><a href="">退费政策</a></li>
-										<li><a href="">电子申请书(现在注册)</a></li>
+										<li><a href="">연수비용안내</a></li>
+										<li><a href="">기숙사안내</a></li>
+										<li><a href="">현지비용</a></li>
+										<li><a href="">IELTS  시험 일정</a></li>
+										<li><a href="">TOEIC 시험 일정</a></li>
+										<li><a href="">필리핀 휴일</a></li>
+										<li><a href="">정규픽업일</a></li>
+										<li><a href="">환불규정</a></li>
+										<li><a href="">온라인 신청서</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Talk的课程</a></li>
+										<li><a href="">토크의 학습방법</a></li>
 										<li>&nbsp;</li>
 										<li><a href="http://128.199.136.69:81/yangco-esl/">Yangco ESL</a> | <a href="http://128.199.136.69:81/ene-center-esl-program/">EnE ESL</a></li>
-										<li><a href="">强化 IELTS</a></li>
-										<li><a href="">强化 TOEIC</a></li>
-										<li><a href="">IELTS保证班</a></li>
-										<li><a href="">TOEIC保证班</a></li>
-										<li><a href="">强化口说</a></li>
-										<li><a href="">打工度假</a></li>
-										<li><a href="">家庭ESL</a></li>
-										<li><a href="">联系我们</a></li>
+										<li><a href="">Intensive IELTS</a></li>
+										<li><a href="">Intensive TOEIC</a></li>
+										<li><a href="">IELTS Guarantee</a></li>
+										<li><a href="">TOEIC Guarantee</a></li>
+										<li><a href="">Power Speaking</a></li>
+										<li><a href="">Working Holiday</a></li>
+										<li><a href="">Family ESL</a></li>
+										<li><a href="">연수상담</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">学习计划</a></li>
+										<li><a href="">필리핀어학연수 계획</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">TOEIC 考试</a></li>
-										<li><a href="">IELTS 考试</a></li>
-										<li><a href="">强化口说</a></li>
-										<li><a href="">短期(1-3周)学习</a></li>
-										<li><a href="">长期学习</a></li>
-										<li><a href="">最优价格</a></li>
-										<li><a href="">组合在菲律宾，澳大利亚和加拿大学习英语</a></li>
+										<li><a href="">TOEIC 시험</a></li>
+										<li><a href="">IELTS 시험</a></li>
+										<li><a href="">스피킹 집중</a></li>
+										<li><a href="">1~3주 단기 어학연수</a></li>
+										<li><a href="">장기유학</a></li>
+										<li><a href="">저렴한 어학연수</a></li>
+										<li><a href="">호주, 캐나다 연계연수</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">社区</a></li>
+										<li><a href="">커뮤니티</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">公告</a></li>
-										<li><a href="">学生经理</a></li>
-										<li><a href="">Talk’每餐</a></li>
-										<li><a href="">在菲律宾</a></li>
-										<li><a href="">Best Student &amp; Teacher</a></li>
+										<li><a href="">공지사항</a></li>
+										<li><a href="">연수후기</a></li>
+										<li><a href="">토크의 식단</a></li>
+										<li><a href="">미리보는 필리핀</a></li>
+										<li><a href="">명예의 전당</a></li>
 									</ul>
 								</div>
 							</div>
@@ -86,19 +86,19 @@
 						<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
 								<img src="<?php echo THEME_URI ?>/img/bureau-immigration.jpg" style="width: 90px; height: 90px;">
-								<p>SSP<br>(Special Study Permit)</p>
+								<p>필리핀 이민국 허가</p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
 								<img src="<?php echo THEME_URI ?>/img/tesda.jpg" style="width: 90px; height: 90px;">
-								<p>TESDA</p>
+								<p>필리핀교육부 허가</p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
 								<img src="<?php echo THEME_URI ?>/img/pcc.jpg" style="width: 70px; height: 90px;">
-								<p>Accreditation<br>certificate of TVET </p>
+								<p>필리핀법인인증</p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
 								<img src="<?php echo THEME_URI ?>/img/besa.jpg" style="width: 90px; height: 90px;">
-								<p>Baguio English<br>Schools Association</p>
+								<p>바기오학원연합회</p>
 							</div>
 						</div>
 						<div class="row">
