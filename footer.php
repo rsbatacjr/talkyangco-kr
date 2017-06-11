@@ -85,19 +85,19 @@
 					<div class="container">
 						<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
-								<img src="<?php echo THEME_URI ?>/img/bureau-immigration.jpg" style="width: 90px; height: 90px;">
+								<img src="<?php echo THEME_URI ?>/img/bureau-immigration.jpg" style="width: 90px; height: 90px;margin-bottom:5px;">
 								<p>필리핀 이민국 허가</p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
-								<img src="<?php echo THEME_URI ?>/img/tesda.jpg" style="width: 90px; height: 90px;">
+								<img src="<?php echo THEME_URI ?>/img/tesda.jpg" style="width: 90px; height: 90px;margin-bottom:5px;">
 								<p>필리핀교육부 허가</p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
-								<img src="<?php echo THEME_URI ?>/img/pcc.jpg" style="width: 70px; height: 90px;">
+								<img src="<?php echo THEME_URI ?>/img/pcc.jpg" style="width: 70px; height: 90px;margin-bottom:5px;">
 								<p>필리핀법인인증</p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
-								<img src="<?php echo THEME_URI ?>/img/besa.jpg" style="width: 90px; height: 90px;">
+								<img src="<?php echo THEME_URI ?>/img/besa.jpg" style="width: 90px; height: 90px;margin-bottom:5px;">
 								<p>바기오학원연합회</p>
 							</div>
 						</div>
