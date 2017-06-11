@@ -132,4 +132,11 @@
 	</body>
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).on("ready", function(){
+			console.log($('.center-this').height()-315);
+			var ht = $('.center-this').height();
+			$('.center-this').css({"margin-top": "-" + ((ht-315)/2) + "px"});
+		})
+	</script>
 </html>
