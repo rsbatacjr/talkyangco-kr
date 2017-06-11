@@ -5,77 +5,77 @@
 							<div class="row">
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Introduction</a></li>
+										<li><a href="">介绍</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">ABOUT US</a></li>
-										<li><a href="">Greetings</a></li>
-										<li><a href="">Strengths</a></li>
-										<li><a href="">Location</a></li>
+										<li><a href="">关于我们</a></li>
+										<li><a href="">问候</a></li>
+										<li><a href="">优势</a></li>
+										<li><a href="">位置</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Process</a></li>
+										<li><a href="">过程</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">Procedure</a></li>
-										<li><a href="">About preparation</a></li>
+										<li><a href="">程序</a></li>
+										<li><a href="">关于准备</a></li>
 										<li><a href="">FAQ</a></li>
-										<li><a href="">Medical &amp; Insurance</a></li>
-										<li><a href="">The way to Baguio</a></li>
-										<li><a href="">Campaign</a></li>
+										<li><a href="">医药和保险系统</a></li>
+										<li><a href="">如何来碧瑶</a></li>
+										<li><a href="">竞技</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Registration</a></li>
+										<li><a href="">注册</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">Tuition Fee</a></li>
-										<li><a href="">Dormitory types</a></li>
-										<li><a href="">Miscellaneous fees</a></li>
-										<li><a href="">IELTS  Official test dates</a></li>
-										<li><a href="">TOEIC Official test dates</a></li>
-										<li><a href="">Holiday in the Philippines</a></li>
-										<li><a href="">Official pick-up dates</a></li>
-										<li><a href="">Refund policy</a></li>
-										<li><a href="">E-Application(Register now)</a></li>
+										<li><a href="">学费</a></li>
+										<li><a href="">宿舍类型</a></li>
+										<li><a href="">其他费用</a></li>
+										<li><a href="">IELTS官方考试日期</a></li>
+										<li><a href="">TOEIC官方考试日期</a></li>
+										<li><a href="">菲律宾假日</a></li>
+										<li><a href="">官方接机日</a></li>
+										<li><a href="">退费政策</a></li>
+										<li><a href="">电子申请书(现在注册)</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Talk’s Know-how</a></li>
+										<li><a href="">Talk的课程</a></li>
 										<li>&nbsp;</li>
 										<li><a href="http://128.199.136.69:81/yangco-esl/">Yangco ESL</a> | <a href="http://128.199.136.69:81/ene-center-esl-program/">EnE ESL</a></li>
-										<li><a href="">Intensive IELTS</a></li>
-										<li><a href="">Intensive TOEIC</a></li>
-										<li><a href="">IELTS Guarantee</a></li>
-										<li><a href="">TOEIC Guarantee</a></li>
-										<li><a href="">Power Speaking</a></li>
-										<li><a href="">Working Holiday</a></li>
-										<li><a href="">Family ESL</a></li>
-										<li><a href="">Online Consulting</a></li>
+										<li><a href="">强化 IELTS</a></li>
+										<li><a href="">强化 TOEIC</a></li>
+										<li><a href="">IELTS保证班</a></li>
+										<li><a href="">TOEIC保证班</a></li>
+										<li><a href="">强化口说</a></li>
+										<li><a href="">打工度假</a></li>
+										<li><a href="">家庭ESL</a></li>
+										<li><a href="">联系我们</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Studying Plans</a></li>
+										<li><a href="">学习计划</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">TOEIC test</a></li>
-										<li><a href="">IELTS test</a></li>
-										<li><a href="">Power speaking</a></li>
-										<li><a href="">Short-term(1~3wks study)</a></li>
-										<li><a href="">Long-term study</a></li>
-										<li><a href="">Best price</a></li>
-										<li><a href="">Philippines &amp; Other country</a></li>
+										<li><a href="">TOEIC 考试</a></li>
+										<li><a href="">IELTS 考试</a></li>
+										<li><a href="">强化口说</a></li>
+										<li><a href="">短期(1-3周)学习</a></li>
+										<li><a href="">长期学习</a></li>
+										<li><a href="">最优价格</a></li>
+										<li><a href="">组合在菲律宾，澳大利亚和加拿大学习英语</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">Community</a></li>
+										<li><a href="">社区</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">Notice</a></li>
-										<li><a href="">Student’s experience</a></li>
-										<li><a href="">Talk’s meals</a></li>
-										<li><a href="">Inside the Philippines</a></li>
+										<li><a href="">公告</a></li>
+										<li><a href="">学生经理</a></li>
+										<li><a href="">Talk’每餐</a></li>
+										<li><a href="">在菲律宾</a></li>
 										<li><a href="">Best Student &amp; Teacher</a></li>
 									</ul>
 								</div>
