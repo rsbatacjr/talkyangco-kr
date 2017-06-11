@@ -16,7 +16,7 @@ get_header();
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/yangco-esl/';">
 								<strong>회화과정</strong>
 								<p>ESL 521</p>
 							</div>
