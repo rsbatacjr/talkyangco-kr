@@ -93,7 +93,7 @@
 								<p>TESDA</p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
-								<img src="<?php echo THEME_URI ?>/img/pcc.jpg" style="width: 90px; height: 90px;">
+								<img src="<?php echo THEME_URI ?>/img/pcc.jpg" style="width: 70px; height: 90px;">
 								<p>Accreditation<br>certificate of TVET </p>
 							</div>
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">

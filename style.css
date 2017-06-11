@@ -193,6 +193,7 @@ Author Email: reynaldo.batac@outlook.com
 #best-place {
 	min-height: 200px;
 	background: url('img/best-place.png');
+	background-size: cover;
 }
 
 #qualified-programs, #about, #experience, #plans {
