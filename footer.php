@@ -44,7 +44,7 @@
 									<ul>
 										<li><a href="">토크의 학습방법</a></li>
 										<li>&nbsp;</li>
-										<li><a href="http://128.199.136.69:81/yangco-esl/">Yangco ESL</a> | <a href="http://128.199.136.69:81/ene-center-esl-program/">EnE ESL</a></li>
+										<li><a href="#">ESL 421, 521, 611</a></li>
 										<li><a href="">Intensive IELTS</a></li>
 										<li><a href="">Intensive TOEIC</a></li>
 										<li><a href="">IELTS Guarantee</a></li>
