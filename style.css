@@ -30,6 +30,7 @@ Author Email: reynaldo.batac@outlook.com
 	background-color: #333;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
+	display: block;
 }
 .mask {
 	position: absolute;
