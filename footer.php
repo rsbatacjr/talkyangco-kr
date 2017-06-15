@@ -94,9 +94,9 @@
 										</div>
 										<div id="collapse1" class="panel-collapse collapse">
 									      <div class="panel-body">
-									      	<a href="">연혁</a><br/>
-									      	<a href="">인사말</a><br/>
-											<a href="">특징</a><br/>
+									      	<a href="">연혁</a>
+									      	<a href="">인사말</a>
+											<a href="">특징</a>
 											<a href="">오시는 길</a>
 									      </div>
 									    </div>
@@ -111,12 +111,12 @@
 										</div>
 										<div id="collapse2" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">유학까지의 흐름</a><br/>
-											<a href="">유학준비에 대해</a><br/>
-											<a href="">FAQ</a><br/>
-											<a href="">의료 체제와 보험</a><br/>
-											<a href="">바기오 가는 방법</a><br/>
-											<a href="">캠페인</a><br/>
+											<a href="">유학까지의 흐름</a>
+											<a href="">유학준비에 대해</a>
+											<a href="">FAQ</a>
+											<a href="">의료 체제와 보험</a>
+											<a href="">바기오 가는 방법</a>
+											<a href="">캠페인</a>
 									      </div>
 									    </div>
 									</div>
@@ -130,14 +130,14 @@
 										</div>
 										<div id="collapse3" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">연수비용안내</a><br/>
-											<a href="">기숙사안내</a><br/>
-											<a href="">현지비용</a><br/>
-											<a href="">IELTS 시험 일정</a><br/>
-											<a href="">TOEIC 시험 일정</a><br/>
-											<a href="">필리핀 휴일</a><br/>
-											<a href="">정규픽업일</a><br/>
-											<a href="">환불규정</a><br/>
+											<a href="">연수비용안내</a>
+											<a href="">기숙사안내</a>
+											<a href="">현지비용</a>
+											<a href="">IELTS 시험 일정</a>
+											<a href="">TOEIC 시험 일정</a>
+											<a href="">필리핀 휴일</a>
+											<a href="">정규픽업일</a>
+											<a href="">환불규정</a>
 											<a href="">온라인 신청서</a>
 									      </div>
 									    </div>
@@ -152,14 +152,14 @@
 										</div>
 										<div id="collapse4" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">ESL 421, 521, 611</a><br/>
-											<a href="">Intensive IELTS</a><br/>
-											<a href="">Intensive TOEIC</a><br/>
-											<a href="">IELTS Guarantee</a><br/>
-											<a href="">TOEIC Guarantee</a><br/>
-											<a href="">Power Speaking</a><br/>
-											<a href="">Working Holiday</a><br/>
-											<a href="">Family ESL</a><br/>
+											<a href="">ESL 421, 521, 611</a>
+											<a href="">Intensive IELTS</a>
+											<a href="">Intensive TOEIC</a>
+											<a href="">IELTS Guarantee</a>
+											<a href="">TOEIC Guarantee</a>
+											<a href="">Power Speaking</a>
+											<a href="">Working Holiday</a>
+											<a href="">Family ESL</a>
 											<a href="">연수상담</a>
 									      </div>
 									    </div>
@@ -174,12 +174,12 @@
 										</div>
 										<div id="collapse5" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">TOEIC 시험</a><br/>
-											<a href="">IELTS 시험</a><br/>
-											<a href="">스피킹 집중</a><br/>
-											<a href="">1~3주 단기 어학연수</a><br/>
-											<a href="">장기유학</a><br/>
-											<a href="">저렴한 어학연수</a><br/>
+											<a href="">TOEIC 시험</a>
+											<a href="">IELTS 시험</a>
+											<a href="">스피킹 집중</a>
+											<a href="">1~3주 단기 어학연수</a>
+											<a href="">장기유학</a>
+											<a href="">저렴한 어학연수</a>
 											<a href="">호주, 캐나다 연계연수</a>
 									      </div>
 									    </div>
@@ -195,10 +195,10 @@
 										</div>
 										<div id="collapse6" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">공지사항</a><br/>
-											<a href="">연수후기</a><br/>
-											<a href="">토크의 식단</a><br/>
-											<a href="">미리보는 필리핀</a><br/>
+											<a href="">공지사항</a>
+											<a href="">연수후기</a>
+											<a href="">토크의 식단</a>
+											<a href="">미리보는 필리핀</a>
 											<a href="">명예의 전당</a>
 									      </div>
 									    </div>
