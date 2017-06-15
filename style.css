@@ -320,16 +320,16 @@ Author Email: reynaldo.batac@outlook.com
 }
 .object-fit_cover{object-fit:cover}
 
-footer #footer-menu {
+footer .footer-menu {
 	padding: 10px 0;
 	background-color: #000;
 	color: #fff;
 }
-footer #footer-menu ul {
+footer .footer-menu ul {
 	list-style: none;
 	padding: 0;
 }
-footer #footer-menu ul li a {
+footer .footer-menu ul li a {
 	color: #fff;
 }
 	.plan-list {
