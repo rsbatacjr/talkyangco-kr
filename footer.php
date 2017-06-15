@@ -1,6 +1,6 @@
 			<div class="row">
 				<footer>
-					<div id="footer-menu">
+					<div class="footer-menu visible-md">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-2">
@@ -82,6 +82,132 @@
 							</div>
 						</div>
 					</div>
+					<div class="footer-menu hidden-md">
+						<div class="container">
+							<div class="row">
+								<div class="panel-group">
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" href="#collapse1">학교소개</a>
+											</h4>
+										</div>
+										<div id="collapse1" class="panel-collapse collapse">
+									      <div class="panel-body">
+									      	<a href="">연혁</a><br/>
+									      	<a href="">인사말</a><br/>
+											<a href="">특징</a><br/>
+											<a href="">오시는 길</a>
+									      </div>
+									    </div>
+									</div>
+								</div>
+								<div class="panel-group">
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" href="#collapse2">유학까지의 흐름</a>
+											</h4>
+										</div>
+										<div id="collapse2" class="panel-collapse collapse">
+									      <div class="panel-body">
+											<a href="">유학까지의 흐름</a><br/>
+											<a href="">유학준비에 대해</a><br/>
+											<a href="">FAQ</a><br/>
+											<a href="">의료 체제와 보험</a><br/>
+											<a href="">바기오 가는 방법</a><br/>
+											<a href="">캠페인</a><br/>
+									      </div>
+									    </div>
+									</div>
+								</div>
+								<div class="panel-group">
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" href="#collapse3">연수비용</a>
+											</h4>
+										</div>
+										<div id="collapse3" class="panel-collapse collapse">
+									      <div class="panel-body">
+											<a href="">연수비용안내</a><br/>
+											<a href="">기숙사안내</a><br/>
+											<a href="">현지비용</a><br/>
+											<a href="">IELTS 시험 일정</a><br/>
+											<a href="">TOEIC 시험 일정</a><br/>
+											<a href="">필리핀 휴일</a><br/>
+											<a href="">정규픽업일</a><br/>
+											<a href="">환불규정</a><br/>
+											<a href="">온라인 신청서</a>
+									      </div>
+									    </div>
+									</div>
+								</div>
+								<div class="panel-group">
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" href="#collapse4">토크의 학습방법</a>
+											</h4>
+										</div>
+										<div id="collapse4" class="panel-collapse collapse">
+									      <div class="panel-body">
+											<a href="">ESL 421, 521, 611</a><br/>
+											<a href="">Intensive IELTS</a><br/>
+											<a href="">Intensive TOEIC</a><br/>
+											<a href="">IELTS Guarantee</a><br/>
+											<a href="">TOEIC Guarantee</a><br/>
+											<a href="">Power Speaking</a><br/>
+											<a href="">Working Holiday</a><br/>
+											<a href="">Family ESL</a><br/>
+											<a href="">연수상담</a>
+									      </div>
+									    </div>
+									</div>
+								</div>
+								<div class="panel-group">
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" href="#collapse5">필리핀어학연수 계획</a>
+											</h4>
+										</div>
+										<div id="collapse5" class="panel-collapse collapse">
+									      <div class="panel-body">
+											<a href="">TOEIC 시험</a><br/>
+											<a href="">IELTS 시험</a><br/>
+											<a href="">스피킹 집중</a><br/>
+											<a href="">1~3주 단기 어학연수</a><br/>
+											<a href="">장기유학</a><br/>
+											<a href="">저렴한 어학연수</a><br/>
+											<a href="">호주, 캐나다 연계연수</a>
+									      </div>
+									    </div>
+									</div>
+								</div>
+
+								<div class="panel-group">
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" href="#collapse6">커뮤니티</a>
+											</h4>
+										</div>
+										<div id="collapse6" class="panel-collapse collapse">
+									      <div class="panel-body">
+											<a href="">공지사항</a><br/>
+											<a href="">연수후기</a><br/>
+											<a href="">토크의 식단</a><br/>
+											<a href="">미리보는 필리핀</a><br/>
+											<a href="">명예의 전당</a>
+									      </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
 					<div class="container">
 						<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
 							<div class="footer-icons col-xs-6 col-sm-3 text-center">
