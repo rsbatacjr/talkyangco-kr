@@ -1,6 +1,6 @@
 			<div class="row">
 				<footer>
-					<div class="footer-menu visible-md">
+					<div class="footer-menu visible-lg">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-2">
@@ -44,7 +44,7 @@
 									<ul>
 										<li><a href="">토크의 학습방법</a></li>
 										<li>&nbsp;</li>
-										<li><a href="#">ESL 421, 521, 611</a></li>
+										<li><a href="http://128.199.136.69:81/esl-421-521-611/">ESL 421, 521, 611</a></li>
 										<li><a href="">Intensive IELTS</a></li>
 										<li><a href="">Intensive TOEIC</a></li>
 										<li><a href="">IELTS Guarantee</a></li>
@@ -82,7 +82,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="footer-menu hidden-md">
+					<div class="footer-menu visible-xs visible-sm visible-md">
 						<div class="container">
 							<div class="row">
 								<div class="panel-group">
@@ -152,7 +152,7 @@
 										</div>
 										<div id="collapse4" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">ESL 421, 521, 611</a>
+											<a href="http://128.199.136.69:81/esl-421-521-611/">ESL 421, 521, 611</a>
 											<a href="">Intensive IELTS</a>
 											<a href="">Intensive TOEIC</a>
 											<a href="">IELTS Guarantee</a>
