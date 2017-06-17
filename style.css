@@ -19,21 +19,30 @@ Author Email: reynaldo.batac@outlook.com
 	margin-right: -15px;
 	margin-bottom: 0;
 	padding: 0;
-	border-bottom: 1px solid #c0c0c0;
+	border-bottom: 1px solid #424242;
 }
 
 .panel-heading {
 	background-color: #000;
 	color: #fff;
 	padding:5px 2px;
+	position:relative;
 }
 
 .panel-heading h4 {
-	padding: 0 30px;
+	padding: 12px 30px;
+	font-size: 90%;
+	font-weight: bold;
 }
 .panel-title a {
 	text-decoration: none !important;
 	display: block !important;
+}
+.panel-title i {
+	position: absolute;
+	right: 30px;
+	top: 15px;
+	font-size: 15px;
 }
 .panel-body {
 	background-color: #000;
@@ -43,11 +52,12 @@ Author Email: reynaldo.batac@outlook.com
 }
 .panel-body a {
 	color: #fff;
-	padding: 5px 15px;
-	background-color: #333;
-	border-top: 1px solid #fff;
+	padding: 20px 55px;
+	background-color: #2D2D2D;
+	border-top: 1px solid #424242;
 	display: block;
 	text-decoration: none;
+	font-size: 85%;
 }
 .panel-body a:last-child {
 	border-bottom: 1px solid #fff;
