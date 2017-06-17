@@ -15,6 +15,24 @@
 	        }
 	        ?>
 	        <div class="row">
+	        	<div class="col-xs-12">
+	        		<div class="container">
+					<br>
+					<br>
+	        			<div class="row">
+                            <div class="col-xs-12 col-sm-offset-3 col-sm-3">
+        						<button style="border-radius: 10px;border: 1px solid #000; padding: 15px; background-color: transparent;width: 90%;" onclick="javascript:window.location='http://128.199.136.69:81/yangco-esl/'">Yangco ESL</button>
+						    </div>
+						    <div class="col-xs-12 col-sm-3">
+						        <button style="border-radius: 10px;border: 1px solid #000; padding: 15px; background-color: transparent;width: 90%;" onclick="javascript:window.location='http://128.199.136.69:81/ene-center-esl-program/'">EnE ESL</button>
+						    </div>
+                        </div>
+                        <br>
+			<br>
+	        		</div>		
+	        	</div>
+	        </div>
+	        <div class="row">
 	        	<div class="col-xs-12" style="height: 315px !important; overflow: hidden;">
 	        		<div class="container">
 	        			<div class="mask text-center">

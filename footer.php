@@ -44,7 +44,7 @@
 									<ul>
 										<li><a href="">토크의 학습방법</a></li>
 										<li>&nbsp;</li>
-										<li><a href="http://128.199.136.69:81/esl-421-521-611/">ESL 421, 521, 611</a></li>
+										<li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
 										<li><a href="">Intensive IELTS</a></li>
 										<li><a href="">Intensive TOEIC</a></li>
 										<li><a href="">IELTS Guarantee</a></li>
@@ -90,6 +90,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse1">학교소개</a>
+	<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse1" class="panel-collapse collapse">
@@ -107,6 +108,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse2">유학까지의 흐름</a>
+	<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse2" class="panel-collapse collapse">
@@ -126,6 +128,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse3">연수비용</a>
+	<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse3" class="panel-collapse collapse">
@@ -148,11 +151,12 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse4">토크의 학습방법</a>
+	<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse4" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="http://128.199.136.69:81/esl-421-521-611/">ESL 421, 521, 611</a>
+											<a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a>
 											<a href="">Intensive IELTS</a>
 											<a href="">Intensive TOEIC</a>
 											<a href="">IELTS Guarantee</a>
@@ -170,6 +174,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse5">필리핀어학연수 계획</a>
+	<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse5" class="panel-collapse collapse">
@@ -191,6 +196,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse6">커뮤니티</a>
+	<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse6" class="panel-collapse collapse">
@@ -263,6 +269,9 @@
 			console.log($('.center-this').height()-315);
 			var ht = $('.center-this').height();
 			$('.center-this').css({"margin-top": "-" + ((ht-315)/2) + "px"});
+			$('.panel-title').on('click', function() {
+				$(this).find('i').text(($(this).find('i').text() == "+" ? "-" : "+"));
+			});
 		})
 	</script>
 </html>
