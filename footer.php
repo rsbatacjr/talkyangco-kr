@@ -7,10 +7,10 @@
 									<ul>
 										<li><a href="">학교소개</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">연혁</a></li>
-										<li><a href="">인사말</a></li>
-										<li><a href="">특징</a></li>
-										<li><a href="">오시는 길</a></li>
+										<li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
+										<li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
+										<li><a href="http://128.199.136.69:81/strengths/">특징</a></li>
+										<li><a href="http://128.199.136.69:81/location/">오시는 길</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
@@ -95,10 +95,10 @@
 										</div>
 										<div id="collapse1" class="panel-collapse collapse">
 									      <div class="panel-body">
-									      	<a href="">연혁</a>
-									      	<a href="">인사말</a>
-											<a href="">특징</a>
-											<a href="">오시는 길</a>
+									      	<a href="http://128.199.136.69:81/about-us/">연혁</a>
+									      	<a href="http://128.199.136.69:81/greetings/">인사말</a>
+											<a href="http://128.199.136.69:81/strengths/">특징</a>
+											<a href="http://128.199.136.69:81/location/">오시는 길</a>
 									      </div>
 									    </div>
 									</div>
