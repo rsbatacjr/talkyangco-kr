@@ -66,7 +66,7 @@
                   <div class="col-xs-12 col-sm-12 col-md-8">
                     <ul class="nav navbar-nav">
                       <li><a href="http://128.199.136.69:81/about-us/">학교소개</a></li>
-                      <li><a href="#">유학까지의 흐름</a></li>
+                      <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
                       <li><a href="#">연수비용</a></li>
                       <li><a href="#">토크의 영어 학습방법</a></li>
                       <li><a href="#">필리핀어학연수계획</a></li>
