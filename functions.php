@@ -337,3 +337,41 @@ function listByPostType() {
 
     echo $htmlResult;
 }
+
+function listByPostType2() {
+        $htmlResult = "<div class='row' style='margin-top: 30px;></div>";
+        $post_type = get_post_meta(get_the_ID(), "category", true);
+        wp_reset_query();
+    $args=array('post_type'=>$post_type,'order'=>'DESC');
+    $loop=new WP_Query($args);
+
+    if($loop->have_posts()){
+        while($loop->have_posts()):$loop->the_post();
+		if(has_post_thumbnail($loop->ID)){
+        		$thumbnail=wp_get_attachment_image_src(get_post_thumbnail_id($loop->ID),'single-post-thumbnail');;
+        	} else {
+	        	$thumbnail='';
+	        }
+                $htmlResult.=
+                "
+                        <div class='row'>
+				<div class='col-xs-4 col-md-3'>
+				<a href='".get_permalink()."'>
+					<div style='background-image:url($thumbnail[0]);width:100%;height:100%;min-height:150px;background-size:150%;background-position:center;margin-bottom:25px;'></div>
+				</a>
+				</div>
+				<div class='col-xs-8 col-md-9'>
+                                <a style='color:#333' href='".get_permalink()."'><h3 style='margin:0;'>".get_the_title()."</h3></a>
+                                <strong>".get_the_author()."</strong>
+                                <span style='color:#c0c0c0'>".get_the_date('Y.m.d')."</span><br>
+                                <p style='line-height:25px;margin-bottom:25px;'>".get_the_excerpt()."</p>
+				
+				</div><div class='clearfix'></div>
+                        </div>
+                ";
+        endwhile;
+    }
+
+    echo $htmlResult;
+}
+

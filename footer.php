@@ -15,14 +15,14 @@
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="">유학까지의 흐름</a></li>
+										<li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">유학까지의 흐름</a></li>
-										<li><a href="">유학준비에 대해</a></li>
-										<li><a href="">FAQ</a></li>
-										<li><a href="">의료 체제와 보험</a></li>
-										<li><a href="">바기오 가는 방법</a></li>
-										<li><a href="">캠페인</a></li>
+										<li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
+										<li><a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a></li>
+										<li><a href="http://128.199.136.69:81/faqs/">FAQ</a></li>
+										<li><a href="http://128.199.136.69:81/medical-and-insurance/">의료 체제와 보험</a></li>
+										<li><a href="http://128.199.136.69:81/way-to-baguio/">바기오 가는 방법</a></li>
+										<li><a href="http://128.199.136.69:81/campaigns/">캠페인</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
@@ -72,11 +72,11 @@
 									<ul>
 										<li><a href="">커뮤니티</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">공지사항</a></li>
-										<li><a href="">연수후기</a></li>
-										<li><a href="">토크의 식단</a></li>
-										<li><a href="">미리보는 필리핀</a></li>
-										<li><a href="">명예의 전당</a></li>
+										<li><a href="http://128.199.136.69:81/notice/">공지사항</a></li>
+										<li><a href="http://128.199.136.69:81/experiences/">연수후기</a></li>
+										<li><a href="http://128.199.136.69:81/meals/">토크의 식단</a></li>
+										<li><a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a></li>
+										<li><a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a></li>
 									</ul>
 								</div>
 							</div>
@@ -113,12 +113,12 @@
 										</div>
 										<div id="collapse2" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">유학까지의 흐름</a>
-											<a href="">유학준비에 대해</a>
-											<a href="">FAQ</a>
-											<a href="">의료 체제와 보험</a>
-											<a href="">바기오 가는 방법</a>
-											<a href="">캠페인</a>
+											<a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a>
+											<a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a>
+											<a href="http://128.199.136.69:81/faqs/">FAQ</a>
+											<a href="http://128.199.136.69:81/medical-and-insurance/">의료 체제와 보험</a>
+											<a href="http://128.199.136.69:81/way-to-baguio/">바기오 가는 방법</a>
+											<a href="http://128.199.136.69:81/campaigns/">캠페인</a>
 									      </div>
 									    </div>
 									</div>
@@ -201,11 +201,11 @@
 										</div>
 										<div id="collapse6" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">공지사항</a>
-											<a href="">연수후기</a>
-											<a href="">토크의 식단</a>
-											<a href="">미리보는 필리핀</a>
-											<a href="">명예의 전당</a>
+											<a href="http://128.199.136.69:81/notice/">공지사항</a>
+											<a href="http://128.199.136.69:81/experiences/">연수후기</a>
+											<a href="http://128.199.136.69:81/meals/">토크의 식단</a>
+											<a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a>
+											<a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a>
 									      </div>
 									    </div>
 									</div>
