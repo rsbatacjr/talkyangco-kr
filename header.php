@@ -19,7 +19,39 @@
       }
     </style>
 </head>
-	<body>
+	<body onscroll="checkTop();">
+<div id="floating-search-tb" class="hidden">
+<div class="input-group">
+    <input id="s" type="text" class="form-control"/>
+    <span class="input-group-addon">
+        <i class="fa fa-search"></i>
+    </span>
+</div>
+</div>
+<div id="floating-menu" class="hidden">
+          <div class="container">
+<div class="col-xs-12 col-sm-12 col-md-8">
+                    <ul class="nav navbar-nav">
+                      <li><a href="http://128.199.136.69:81/about-us/">학교소개</a></li>
+                      <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
+                      <li><a href="#">연수비용</a></li>
+                      <li><a href="#">토크의 학습방법</a></li>
+                      <li><a href="#">필리핀어학연수계획</a></li>
+                      <li><a href="#">커뮤니티</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="row">
+<div class="search-lens">
+  <span class="fa fa-search"></span>
+  <!-- <input placeholder="수색"> -->
+</div>
+                    </div>
+                  </div>
+
+          </div>
+        </div>
+
 		<div class="container-fluid">
       <header>
         <div class="row">
@@ -33,7 +65,6 @@
               <a href="#">VN</a>
             </div>
           </div>
-        </div>
         <div class="row">
           <div class="container">
               <nav class="navbar navbar-default" role="navigation">
@@ -68,10 +99,17 @@
                       <li><a href="http://128.199.136.69:81/about-us/">학교소개</a></li>
                       <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
                       <li><a href="#">연수비용</a></li>
-                      <li><a href="#">토크의 영어 학습방법</a></li>
+                      <li><a href="#">토크의 학습방법</a></li>
                       <li><a href="#">필리핀어학연수계획</a></li>
                       <li><a href="#">커뮤니티</a></li>
                     </ul>
+                  </div>
+		  <div class="col-xs-12 col-sm-12 col-md-4">
+                    <div class="row">
+<div class="search-lens">
+  <span class="fa fa-search"></span>
+</div>
+                    </div>
                   </div>
                 </div>
               </nav>

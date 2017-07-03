@@ -1,6 +1,6 @@
 			<div class="row">
 				<footer>
-					<div class="footer-menu visible-lg">
+					<div class="footer-menu visible-lg" style="padding-top:15px;">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-2">
@@ -29,12 +29,12 @@
 									<ul>
 										<li><a href="">연수비용</a></li>
 										<li>&nbsp;</li>
-										<li><a href="">연수비용안내</a></li>
+										<li><a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a></li>
 										<li><a href="">기숙사안내</a></li>
 										<li><a href="">현지비용</a></li>
-										<li><a href="">IELTS  시험 일정</a></li>
-										<li><a href="">TOEIC 시험 일정</a></li>
-										<li><a href="">필리핀 휴일</a></li>
+										<li><a href="http://128.199.136.69:81/ielts-official-test-dates/">IELTS  시험 일정</a></li>
+										<li><a href="http://128.199.136.69:81/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
+										<li><a href="http://128.199.136.69:81/philippine-holiday/">필리핀 휴일</a></li>
 										<li><a href="">정규픽업일</a></li>
 										<li><a href="">환불규정</a></li>
 										<li><a href="">온라인 신청서</a></li>
@@ -45,10 +45,8 @@
 										<li><a href="">토크의 학습방법</a></li>
 										<li>&nbsp;</li>
 										<li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
-										<li><a href="">Intensive IELTS</a></li>
-										<li><a href="">Intensive TOEIC</a></li>
-										<li><a href="">IELTS Guarantee</a></li>
-										<li><a href="">TOEIC Guarantee</a></li>
+										<li><a href="">IELTS</a></li>
+										<li><a href="">TOEIC</a></li>
 										<li><a href="">Power Speaking</a></li>
 										<li><a href="">Working Holiday</a></li>
 										<li><a href="">Family ESL</a></li>
@@ -77,6 +75,7 @@
 										<li><a href="http://128.199.136.69:81/meals/">토크의 식단</a></li>
 										<li><a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a></li>
 										<li><a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a></li>
+										<li><a href="">여행</a></li>
 									</ul>
 								</div>
 							</div>
@@ -133,12 +132,12 @@
 										</div>
 										<div id="collapse3" class="panel-collapse collapse">
 									      <div class="panel-body">
-											<a href="">연수비용안내</a>
+											<a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a>
 											<a href="">기숙사안내</a>
 											<a href="">현지비용</a>
-											<a href="">IELTS 시험 일정</a>
-											<a href="">TOEIC 시험 일정</a>
-											<a href="">필리핀 휴일</a>
+											<a href="http://128.199.136.69:81/ielts-official-test-dates/">IELTS 시험 일정</a>
+											<a href="http://128.199.136.69:81/toeic-official-test-dates/">TOEIC 시험 일정</a>
+											<a href="http://128.199.136.69:81/philippine-holiday/">필리핀 휴일</a>
 											<a href="">정규픽업일</a>
 											<a href="">환불규정</a>
 											<a href="">온라인 신청서</a>
@@ -157,10 +156,8 @@
 										<div id="collapse4" class="panel-collapse collapse">
 									      <div class="panel-body">
 											<a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a>
-											<a href="">Intensive IELTS</a>
-											<a href="">Intensive TOEIC</a>
-											<a href="">IELTS Guarantee</a>
-											<a href="">TOEIC Guarantee</a>
+											<a href="">IELTS</a>
+											<a href="">TOEIC</a>
 											<a href="">Power Speaking</a>
 											<a href="">Working Holiday</a>
 											<a href="">Family ESL</a>
@@ -206,6 +203,7 @@
 											<a href="http://128.199.136.69:81/meals/">토크의 식단</a>
 											<a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a>
 											<a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a>
+											<a href="">여행</a>
 									      </div>
 									    </div>
 									</div>
@@ -266,12 +264,32 @@
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(document).on("ready", function(){
-			console.log($('.center-this').height()-315);
 			var ht = $('.center-this').height();
 			$('.center-this').css({"margin-top": "-" + ((ht-315)/2) + "px"});
 			$('.panel-title').on('click', function() {
 				$(this).find('i').text(($(this).find('i').text() == "+" ? "-" : "+"));
 			});
-		})
+		});
+
+		$(document).on('click', '.search-lens', function() {
+			console.log('click');
+			$('#floating-search-tb').toggleClass('hidden', false);
+			if($('#floating-menu').hasClass('hidden')) {
+			$('#floating-search-tb').css("top", parseFloat($(this).offset().top) + parseFloat($(this).height()));
+			$('#floating-search-tb').css("left", parseFloat($(this).offset().left) - parseFloat($('#floating-search-tb').width()));
+			} else {
+			$('#floating-search-tb').css("top","35px");
+                        $('#floating-search-tb').css("right", "100px");
+			}
+		});
+
+		function checkTop() {
+			$('#floating-search-tb').toggleClass('hidden', true);
+			if($(document).scrollTop() >= 120) {
+				$('#floating-menu').toggleClass('hidden',false);
+} else if($(document).scrollTop() < 120) {
+				$('#floating-menu').toggleClass('hidden', true);
+}
+		}
 	</script>
 </html>
