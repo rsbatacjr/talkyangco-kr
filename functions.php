@@ -375,3 +375,204 @@ function listByPostType2() {
     echo $htmlResult;
 }
 
+add_action( 'wp_ajax_nopriv_post_consultation_online', 'post_consultation_online' );
+add_action( 'wp_ajax_post_consultation_online', 'post_consultation_online' );
+function post_consultation_online() {
+	extract($_REQUEST);
+
+	$subject = "";
+	$headers = array('Content-Type: text/html; charset=UTF-8');
+	$headers[] = str_replace(',rn"@mx-proxy001.phy.lolipop.jp', "", 'Reply-To: '.$email.' <'.$email.'>');
+
+	$body = "";
+
+	
+	wp_mail( "reybatacjr@gmail.com", $subject, $body, $headers );
+	echo "OK";
+	die();
+}
+
+add_shortcode('show_consultation_online_form', 'show_consultation_online_form_func');
+function show_consultation_online_form_func() {
+	ob_start();
+	?>
+	<div class="form-horizontal">
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<label class="control-label col-xs-2">이메일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-10">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">국가 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">성별</label>
+					<div class="col-xs-8">
+						<select class="form-control">
+						<option value=""></option>
+						<option value="esl-421-521-611">ESL 421, 521, 611</option>
+						<option value="intensive-ielts">Intensive IELTS</option>
+						<option value="intensive-toeic">Intensive TOEIC</option>
+						<option value="ielts-guarantee">IELTS Guarantee</option>
+						<option value="toeic-guarantee">TOEIC Guarantee</option>
+						<option value="power-speaking">Power Speaking</option>
+						<option value="working-holiday">Working Holiday</option>
+						<option value="family-esl">Family ESL </option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">나이</label>
+					<div class="col-xs-8">
+						<select class="form-control">
+							<option value=""></option>
+							<option value="1">1인실</option>
+							<option value="2">2인실</option>
+							<option value="3">3인실</option>
+							<option value="4">4인실</option>
+							<option value="5">기타</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">프로그램</label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">기숙사</label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<label class="control-label col-xs-2">기숙사 유형</label>
+					<div class="col-xs-8">
+					<input type="radio" name="" >1인실 <input type="radio" name="" >2인실 <input type="radio" name="" >3인실 <input type="radio" name="" >4인실 <input type="radio" name="" >기타 : (<input class="form-control"></input>)
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<label class="control-label col-xs-2">유학의 목적</label>
+					<div class="col-xs-10">
+						<input type="radio" name="" >영어회화 <input type="radio" name="" >시험준비 <input type="radio" name="" >취업 <input type="radio" name="" >연계연수/워킹홀리데이 <input type="radio" name="" >해외취업 <input type="radio" name="" >이민 <input type="radio" name="" >기타 : <input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">현재 영어 수준</label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">예산</label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">어학연수 경험</label>
+					<div class="col-xs-8">
+						<input type="radio" name="" >있음 <input type="radio" name="" >없음
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">연수기간</label>
+					<div class="col-xs-8">
+						<input class="form-control"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<label class="control-label col-xs-2">기타</label>
+					<div class="col-xs-10">
+						<textarea class="form-control" rows=4 width="100%"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<input class="btn btn-danger">유학상담 신청하기</input>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <script src="<?php echo THEME_URI; ?>/js/online-consulting.js"></script>
+	<?php
+	return ob_get_clean();
+}

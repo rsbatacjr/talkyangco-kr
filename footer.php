@@ -46,10 +46,10 @@
 										<li>&nbsp;</li>
 										<li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
 										<li><a href="http://128.199.136.69:81/elts/">IELTS</a></li>
-										<li><a href="">TOEIC</a></li>
-										<li><a href="">Power Speaking</a></li>
-										<li><a href="">Working Holiday</a></li>
-										<li><a href="">Family ESL</a></li>
+										<li><a href="http://128.199.136.69:81/toiec/">TOEIC</a></li>
+										<li><a href="http://128.199.136.69:81/power-speaking/">Power Speaking</a></li>
+										<li><a href="http://128.199.136.69:81/job-ready/">Working Holiday</a></li>
+										<li><a href="http://128.199.136.69:81/family-esl/">Family ESL</a></li>
 										<li><a href="">연수상담</a></li>
 									</ul>
 								</div>
@@ -156,10 +156,10 @@
 									      <div class="panel-body">
 											<a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a>
 											<a href="http://128.199.136.69:81/elts/">IELTS</a>
-											<a href="">TOEIC</a>
-											<a href="">Power Speaking</a>
-											<a href="">Working Holiday</a>
-											<a href="">Family ESL</a>
+											<a href="http://128.199.136.69:81/toiec/">TOEIC</a>
+											<a href="http://128.199.136.69:81/power-speaking/">Power Speaking</a>
+											<a href="http://128.199.136.69:81/job-ready/">Working Holiday</a>
+											<a href="http://128.199.136.69:81/family-esl/">Family ESL</a>
 											<a href="">연수상담</a>
 									      </div>
 									    </div>
