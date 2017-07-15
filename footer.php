@@ -58,9 +58,9 @@
 										<li><a href="">필리핀어학연수 계획</a></li>
 										<li>&nbsp;</li>
 										<li><a href="">TOEIC 시험</a></li>
-										<li><a href="">IELTS 시험</a></li>
+										<li><a href="http://128.199.136.69:81/ielts-test/">IELTS 시험</a></li>
 										<li><a href="http://128.199.136.69:81/intensive-speaking/">스피킹 집중</a></li>
-										<li><a href="">1~3주 단기 어학연수</a></li>
+										<li><a href="http://128.199.136.69:81/short-term-study/">1~3주 단기 어학연수</a></li>
 										<li><a href="">장기유학</a></li>
 										<li><a href="http://128.199.136.69:81/best-price/">저렴한 어학연수</a></li>
 										<li><a href="">호주, 캐나다 연계연수</a></li>
@@ -75,6 +75,7 @@
 										<li><a href="http://128.199.136.69:81/meals/">토크의 식단</a></li>
 										<li><a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a></li>
 										<li><a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a></li>
+										<li><a href="">여행</a></li>
 									</ul>
 								</div>
 							</div>
@@ -176,9 +177,9 @@
 										<div id="collapse5" class="panel-collapse collapse">
 									      <div class="panel-body">
 											<a href="">TOEIC 시험</a>
-											<a href="">IELTS 시험</a>
+											<a href="http://128.199.136.69:81/ielts-test/">IELTS 시험</a>
 											<a href="http://128.199.136.69:81/intensive-speaking/">스피킹 집중</a>
-											<a href="">1~3주 단기 어학연수</a>
+											<a href="http://128.199.136.69:81/short-term-study/">1~3주 단기 어학연수</a>
 											<a href="">장기유학</a>
 											<a href="http://128.199.136.69:81/best-price/">저렴한 어학연수</a>
 											<a href="">호주, 캐나다 연계연수</a>
@@ -202,6 +203,7 @@
 											<a href="http://128.199.136.69:81/meals/">토크의 식단</a>
 											<a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a>
 											<a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a>
+											<a href="">여행</a>
 									      </div>
 									    </div>
 									</div>
