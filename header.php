@@ -53,9 +53,8 @@
         </div>
 
 		<div class="container-fluid">
-      <header>
-        <div class="row">
-          <div id="weblinks">
+<div class="row">      <header>
+         <div id="weblinks">
             <div class="container">
               <a href="" style="border: 1px solid #fff; padding: 3px 5px; font-size: 12px; border-radius: 3px">AGENCY</a>&nbsp;&nbsp;
               <a href="#">ENG</a>
@@ -65,12 +64,11 @@
               <a href="#">VN</a>
             </div>
           </div>
-        <div class="row">
           <div class="container">
               <nav class="navbar navbar-default" role="navigation">
                 <div class="navbar-header">
                   <p class="visible-xs" style="position: absolute; top: 15px; right: 65px;"><a href="#">Sign in</a> / <a href="#">Join</a> | Menu</p>
-                  <div class="hidden-xs row" style="position: absolute; top: 15px;">
+                  <div class="hidden-xs row" style="position: absolute; top: 16px;">
                     <div class="container">
                       <div class="col-xs-12 col-md-8">
                         <div id="login-box">
@@ -114,5 +112,4 @@
                 </div>
               </nav>
           </div>
-        </div>
-      </header>
+      </header></div>
