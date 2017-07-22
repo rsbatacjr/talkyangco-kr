@@ -5,7 +5,7 @@ jQuery(document).ready(function(e){
 	$('#input[name=dormitorytype]').on('select', function(e) {
 		console.log($(this).val());
 	});
-
+	
 	$('#send-consultation').on("click", function(e){
 		dormitorytype = $('input[name=dormitorytype]:checked').val();
 		dormitorytype = (dormitorytype == "기타" ? $('#dormitorytypeother').val(): dormitorytype);
@@ -14,7 +14,7 @@ jQuery(document).ready(function(e){
 		purpose = (purpose == "기타" ? $('#purposeother').val(): purpose);
 
 		$.ajax({
-			url: '<?php echo admin_url( 'admin-ajax.php' ); ?>',
+			url: adminajax,
 			type: "POST",
 			data: {
 				studentname: $('#studentname').val(),
