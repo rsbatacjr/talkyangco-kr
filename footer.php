@@ -276,13 +276,5 @@
 			$('#floating-search-tb').css("top", ($(this).position().top + $(this).height() + $(this).css("margin-top"))+ "px");
 		});
 
-		function checkTop() {
-			$('#floating-search-tb').toggleClass('hidden', true);
-			if($(document).scrollTop() >= 120) {
-				$('#floating-menu').toggleClass('hidden',false);
-} else if($(document).scrollTop() < 120) {
-				$('#floating-menu').toggleClass('hidden', true);
-}
-		}
 	</script>
 </html>
