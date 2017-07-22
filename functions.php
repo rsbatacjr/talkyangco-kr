@@ -656,3 +656,261 @@ function show_consultation_online_form_func() {
 	<?php
 	return ob_get_clean();
 }
+
+
+add_action( 'wp_ajax_nopriv_post_online_registration', 'post_online_registration' );
+add_action( 'wp_ajax_post_online_registration', 'post_online_registration' );
+function post_online_registration() {
+	extract($_REQUEST);
+
+	$subject = "";
+	$headers = array('Content-Type: text/html; charset=UTF-8');
+	$headers[] = ['Reply-To: '.$email.' <'.$email.'>'];
+
+	$body = "
+	이름: $studentname<br>
+	영문이름: $englishname<br>
+	이메일: $email<br>
+	국가: $country<br>
+	전화번호: $phone<br>
+	성별: $gender<br>
+	나이: $age<br>
+	프로그램: $program<br>
+	기숙사: $dormitory<br>
+	기숙사 유형: $dormitorytype<br>
+	유학의 목적: $purpose<br>
+	현재 영어 수준: $currentenglevel<br>
+	예산: $budget<br>
+	어학연수 경험: learningexperience<br>
+	연수기간: $trainingperiod<br>
+	기타: $others";
+
+	
+	wp_mail( "reybatacjr@gmail.com", $subject, $body, $headers );
+	echo "OK";
+	die();
+}
+
+add_shortcode('show_online_registration_form', 'show_online_registration_form_func');
+function show_online_registration_form_func() {
+	ob_start();
+	?>
+	<div class="form-horizontal">
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="studentname">이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control" id="studentname" name="studentname"></input>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="englishname">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control" id="englishname" name="englishname"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<label class="control-label col-xs-2" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-10">
+						<input class="form-control" id="email" name="email"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="country">국가 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control" id="country" name="country"></input>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="phone">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control" id="phone" name="phone"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4">성별</label>
+					<div class="col-xs-8">
+						<label class="radio-inline">
+				      		<input type="radio" name="gender" value="M">남
+					    </label>
+						<label class="radio-inline">
+				      		<input type="radio" name="gender" value="F">여
+					    </label>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="birthday">생년월일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-8">
+						<input class="form-control" id="birthday" name="birthday"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12" style="background-color:#c0c0c0;">
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="program1">프로그램1 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-8">
+								<select class="form-control" id="program1" name="program1">
+									<option value="1">ESL 421,</option>
+									<option value="2">ESL 521</option>
+									<option value="3">ESL, 611</option>
+									<option value="4">Intensive IELTS</option>
+									<option value="5">Intensive TOEIC</option>
+									<option value="6">IELTS Guarantee</option>
+									<option value="7">TOEIC Guarantee</option>
+									<option value="8">Power Speaking</option>
+									<option value="9">Working Holiday</option>
+									<option value="10">Family ESL(Parent)</option>
+									<option value="11">Family ESL(Junior))</option>
+								</select>	
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="dormitory1">생년월일 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-8">
+								<select class="form-control" id="dormitory1" name="dormitory1">
+									<option value="1">Yanco Center 2 ACC</option>
+									<option value="2">Yangco Center 3 ACC</option>
+									<option value="3">Yangco Center 4 ACC</option>
+									<option value="4">E&amp;E Center 1 ACC</option>
+									<option value="5">E&amp;E Center 2 ACC</option>
+									<option value="6">E&amp;E Center 3 ACC</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="trainingperiod1">연수기간 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-8">
+								<input class="form-control" id="trainingperiod1" name="trainingperiod1" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="program2">프로그램2</label>
+							<div class="col-xs-8">
+								<select class="form-control" id="program1" name="program2">
+									<option value="1">ESL 421,</option>
+									<option value="2">ESL 521</option>
+									<option value="3">ESL, 611</option>
+									<option value="4">Intensive IELTS</option>
+									<option value="5">Intensive TOEIC</option>
+									<option value="6">IELTS Guarantee</option>
+									<option value="7">TOEIC Guarantee</option>
+									<option value="8">Power Speaking</option>
+									<option value="9">Working Holiday</option>
+									<option value="10">Family ESL(Parent)</option>
+									<option value="11">Family ESL(Junior))</option>
+								</select>	
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="dormitory2">생년월일</label>
+							<div class="col-xs-8">
+								<select class="form-control" id="dormitory2" name="dormitory2">
+									<option value="1">Yanco Center 2 ACC</option>
+									<option value="2">Yangco Center 3 ACC</option>
+									<option value="3">Yangco Center 4 ACC</option>
+									<option value="4">E&amp;E Center 1 ACC</option>
+									<option value="5">E&amp;E Center 2 ACC</option>
+									<option value="6">E&amp;E Center 3 ACC</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="form-group">
+							<label class="control-label col-xs-4" for="trainingperiod2">연수기간 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-8">
+								<input class="form-control" id="trainingperiod2" name="trainingperiod2" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="emergencycontact">비상연락처</label>
+					<div class="col-xs-8">
+						<input class="form-control" id="emergencycontact" name="emergencycontact"></input>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="emergencyphone">전화번호</label>
+					<div class="col-xs-8">
+						<input class="form-control" id="emergencyphone" name="emergencyphone"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="relationship">학생과의 관계</label>
+					<div class="col-xs-8">
+						<input class="form-control" id="relationship" name="relationship"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<label class="control-label col-xs-2" for="memo">메모</label>
+					<div class="col-xs-8">
+						<textarea class="form-control" id="memo" name="memo"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+					<button id="send-consultation" class="btn btn-danger">온라인 신청서 보내기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <script src="<?php echo THEME_URI; ?>/js/online-consulting.js"></script>
+	<?php
+	return ob_get_clean();
+}

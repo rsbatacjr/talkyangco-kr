@@ -50,7 +50,7 @@ $(document).ready(function(e){
 				others: $('#others').val()
 			},
 			success: function(e) {
-				alert('success');
+				alert(e);
 				window.location.reload();
 			}
 		})
