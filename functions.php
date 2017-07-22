@@ -532,8 +532,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
 				<div class="form-group">
-					<label class="control-label col-xs-2">기숙사 유형</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-4">기숙사 유형</label>
+					<div class="col-xs-9">
 					<label class="radio-inline">
 						<input type="radio" name="dormitorytype" value="1인실">1인실 
 					</label>
@@ -552,7 +552,7 @@ function show_consultation_online_form_func() {
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-4">
+			<div class="col-xs-12 col-md-offset-4 col-md-4">
 			<input class="form-control hidden" id="dormitorytypeother" name="dormitorytypeother"></input>
 			</div>
 		</div>
@@ -586,7 +586,9 @@ function show_consultation_online_form_func() {
 				</div>
 			</div>
 			<div class="col-xs-12">
+				<div class="col-xs-offset-2 col-xs-10">
 				<input class="form-control hidden" id="purposeother"></input>
+				</div>
 			</div>
 		</div>
 
