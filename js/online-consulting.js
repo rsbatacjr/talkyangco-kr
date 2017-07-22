@@ -32,6 +32,7 @@ $(document).ready(function(e){
 			url: adminajax,
 			type: "POST",
 			data: {
+				action: 'post_consultation_online',
 				studentname: $('#studentname').val(),
 				englishname: $('#englishname').val(),
 				email: $('#email').val(),
