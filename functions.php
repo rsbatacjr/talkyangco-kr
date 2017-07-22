@@ -766,7 +766,7 @@ function show_online_registration_form_func() {
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12" style="background-color:#c0c0c0;">
+			<div class="col-xs-12" style="background-color:#c0c0c0;padding:30px 0;margin-bottom: 15px;">
 				<div class="row">
 					<div class="col-xs-6">
 						<div class="form-group">
