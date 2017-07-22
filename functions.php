@@ -428,17 +428,17 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<label class="control-label col-xs-4" for="studentname">이름 <span style="color:rgb(255,0,0)">*</span></label>
 					<div class="col-xs-8">
-						<input class="form-control"></input>
+						<input class="form-control" id="studentname" name="studentname"></input>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<label class="control-label col-xs-4" for="englishname">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
 					<div class="col-xs-8">
-						<input class="form-control"></input>
+						<input class="form-control" id="englishname" name="englishname"></input>
 					</div>
 				</div>
 			</div>
@@ -446,9 +446,9 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-2">이메일 <span style="color:rgb(255,0,0)">*</span></label>
+					<label class="control-label col-xs-2" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
 					<div class="col-xs-10">
-						<input class="form-control"></input>
+						<input class="form-control" id="email" name="email"></input>
 					</div>
 				</div>
 			</div>
@@ -456,17 +456,17 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">국가 <span style="color:rgb(255,0,0)">*</span></label>
+					<label class="control-label col-xs-4" for="country">국가 <span style="color:rgb(255,0,0)">*</span></label>
 					<div class="col-xs-8">
-						<input class="form-control"></input>
+						<input class="form-control" id="country" name="country"></input>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
+					<label class="control-label col-xs-4" for="phone">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
 					<div class="col-xs-8">
-						<input class="form-control"></input>
+						<input class="form-control" id="phone" name="phone"></input>
 					</div>
 				</div>
 			</div>
@@ -476,26 +476,47 @@ function show_consultation_online_form_func() {
 				<div class="form-group">
 					<label class="control-label col-xs-4">성별</label>
 					<div class="col-xs-8">
-						<select class="form-control">
-						<option value=""></option>
-						<option value="esl-421-521-611">ESL 421, 521, 611</option>
-						<option value="intensive-ielts">Intensive IELTS</option>
-						<option value="intensive-toeic">Intensive TOEIC</option>
-						<option value="ielts-guarantee">IELTS Guarantee</option>
-						<option value="toeic-guarantee">TOEIC Guarantee</option>
-						<option value="power-speaking">Power Speaking</option>
-						<option value="working-holiday">Working Holiday</option>
-						<option value="family-esl">Family ESL </option>
+						<label class="radio-inline">
+				      		<input type="radio" name="gender" value="M">남
+					    </label>
+						<label class="radio-inline">
+				      		<input type="radio" name="gender" value="F">여
+					    </label>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="age">나이</label>
+					<div class="col-xs-8">
+						<input class="form-control" id="age" name="age"></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label class="control-label col-xs-4" for="program">프로그램</label>
+					<div class="col-xs-8">
+						<select class="form-control" id="program" name="program">
+							<option value="1">ESL 421, 521, 611</option>
+							<option value="2">Intensive IELTS</option>
+							<option value="3">Intensive TOEIC</option>
+							<option value="4">IELTS Guarantee</option>
+							<option value="5">TOEIC Guarantee</option>
+							<option value="6">Power Speaking</option>
+							<option value="7">Working Holiday</option>
+							<option value="8">Family ESL </option>
 						</select>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">나이</label>
+					<label class="control-label col-xs-4" for="dormitory">기숙사</label>
 					<div class="col-xs-8">
-						<select class="form-control">
-							<option value=""></option>
+						<select class="form-control" id="dormitory" name="dormitory">
 							<option value="1">1인실</option>
 							<option value="2">2인실</option>
 							<option value="3">3인실</option>
@@ -507,29 +528,25 @@ function show_consultation_online_form_func() {
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
-				<div class="form-group">
-					<label class="control-label col-xs-4">프로그램</label>
-					<div class="col-xs-8">
-						<input class="form-control"></input>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-6">
-				<div class="form-group">
-					<label class="control-label col-xs-4">기숙사</label>
-					<div class="col-xs-8">
-						<input class="form-control"></input>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
 					<label class="control-label col-xs-2">기숙사 유형</label>
 					<div class="col-xs-8">
-					<input type="radio" name="" >1인실 <input type="radio" name="" >2인실 <input type="radio" name="" >3인실 <input type="radio" name="" >4인실 <input type="radio" name="" >기타 : (<input class="form-control"></input>)
+					<label class="radio-inline">
+						<input type="radio" name="dormitorytype" >1인실 
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="dormitorytype" >2인실
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="dormitorytype" >3인실
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="dormitorytype" >4인실
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="dormitorytype" >기타 : 
+					</label>(<input class="form-control"></input>)
 					</div>
 				</div>
 			</div>
@@ -539,7 +556,27 @@ function show_consultation_online_form_func() {
 				<div class="form-group">
 					<label class="control-label col-xs-2">유학의 목적</label>
 					<div class="col-xs-10">
-						<input type="radio" name="" >영어회화 <input type="radio" name="" >시험준비 <input type="radio" name="" >취업 <input type="radio" name="" >연계연수/워킹홀리데이 <input type="radio" name="" >해외취업 <input type="radio" name="" >이민 <input type="radio" name="" >기타 : <input class="form-control"></input>
+					<label class="radio-inline">
+						<input type="radio" name="purpose" >영어회화 
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="purpose" >시험준비 
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="purpose" >취업 
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="purpose" >연계연수/워킹홀리데이 
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="purpose" >해외취업 
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="purpose" >이민 
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="purpose" >기타 : 
+					</label><input class="form-control"></input>
 					</div>
 				</div>
 			</div>
@@ -548,17 +585,17 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">현재 영어 수준</label>
+					<label class="control-label col-xs-4" for="currentenglevel">현재 영어 수준</label>
 					<div class="col-xs-8">
-						<input class="form-control"></input>
+						<input class="form-control" id="currentenglevel" name="currentenglevel"></input>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">예산</label>
+					<label class="control-label col-xs-4" for="budget">예산</label>
 					<div class="col-xs-8">
-						<input class="form-control"></input>
+						<input class="form-control" id="budget" name="budget"></input>
 					</div>
 				</div>
 			</div>
@@ -568,15 +605,20 @@ function show_consultation_online_form_func() {
 				<div class="form-group">
 					<label class="control-label col-xs-4">어학연수 경험</label>
 					<div class="col-xs-8">
-						<input type="radio" name="" >있음 <input type="radio" name="" >없음
+						<label class="radio-inline">
+							<input type="radio" name="learningexperience" >있음 
+						</label>
+						<label class="radio-inline">
+							<input type="radio" name="learningexperience" >없음
+						</label>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">연수기간</label>
+					<label class="control-label col-xs-4" for="trainingperiod">연수기간</label>
 					<div class="col-xs-8">
-						<input class="form-control"></input>
+						<input class="form-control" id="trainingperiod" name="trainingperiod"></input>
 					</div>
 				</div>
 			</div>
@@ -584,9 +626,9 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-2">기타</label>
+					<label class="control-label col-xs-2" for="others">기타</label>
 					<div class="col-xs-10">
-						<textarea class="form-control" rows=4 width="100%"></textarea>
+						<textarea class="form-control" rows=4 width="100%" id="others" name="others"></textarea>
 					</div>
 				</div>
 			</div>
