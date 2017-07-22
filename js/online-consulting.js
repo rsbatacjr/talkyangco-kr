@@ -1,7 +1,7 @@
-jQuery(document).ready(function(e){
+$(document).ready(function(e){
 	$('#send-consultation').on("click", function(e){
 		$.ajax({
-			url: '<?php echo admin_url( 'admin-ajax.php' ); ?>',
+			url: adminajax,
 			type: "POST",
 			data: {
 				studentname: $('#studentname').val(),
