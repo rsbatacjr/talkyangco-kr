@@ -652,7 +652,7 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<input class="btn btn-danger" value="유학상담 신청하기">
+					<button id="send-consultation" class="btn btn-danger">유학상담 신청하기</button>
 				</div>
 			</div>
 		</div>
