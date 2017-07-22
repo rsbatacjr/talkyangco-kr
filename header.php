@@ -29,16 +29,11 @@
 			$('#floating-menu').toggleClass('hidden', true);
 		}
 	}
-	$(function(){
-		$(window).scroll(function() {
-console.log('s');
-			checkTop();
-		});
-	});
+	
     </script>
 
 </head>
-	<body>
+	<body onscroll="checkTop();">
 <div id="floating-search-tb" class="hidden">
 <div class="input-group">
     <input id="s" type="text" class="form-control"/>
