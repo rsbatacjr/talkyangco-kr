@@ -18,6 +18,10 @@
         margin: 0 !important;
       }
     </style>
+	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/jquery.min.js"></script>
+    <script type="javascript/text">
+	var adminajax = "<?php echo admin_url( 'admin-ajax.php' ); ?>";
+    </script>
 </head>
 	<body onscroll="checkTop();">
 <div id="floating-search-tb" class="hidden">
