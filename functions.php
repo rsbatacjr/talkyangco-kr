@@ -528,43 +528,32 @@ function show_consultation_online_form_func() {
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
-				<div class="form-group">
-					<label class="control-label col-xs-4" for="dormitory">기숙사</label>
-					<div class="col-xs-8">
-						<select class="form-control" id="dormitory" name="dormitory">
-							<option value="1">1인실</option>
-							<option value="2">2인실</option>
-							<option value="3">3인실</option>
-							<option value="4">4인실</option>
-							<option value="5">기타</option>
-						</select>
-					</div>
-				</div>
-			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-md-8">
 				<div class="form-group">
 					<label class="control-label col-xs-2">기숙사 유형</label>
 					<div class="col-xs-8">
 					<label class="radio-inline">
-						<input type="radio" name="dormitorytype" >1인실 
+						<input type="radio" name="dormitorytype" value="1인실">1인실 
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="dormitorytype" >2인실
+						<input type="radio" name="dormitorytype" value="2인실">2인실
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="dormitorytype" >3인실
+						<input type="radio" name="dormitorytype" value="3인실">3인실
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="dormitorytype" >4인실
+						<input type="radio" name="dormitorytype" value="4인실">4인실
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="dormitorytype" >기타 : 
-					</label>(<input class="form-control"></input>)
+						<input type="radio" name="dormitorytype" value="기타">기타 : 
+					</label>
 					</div>
 				</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+			<input class="form-control hidden" id="dormitorytypeother" name="dormitorytypeother"></input>
 			</div>
 		</div>
 		<div class="row">
@@ -573,28 +562,31 @@ function show_consultation_online_form_func() {
 					<label class="control-label col-xs-2">유학의 목적</label>
 					<div class="col-xs-10">
 					<label class="radio-inline">
-						<input type="radio" name="purpose" >영어회화 
+						<input type="radio" name="purpose" value="영어회화">영어회화 
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="purpose" >시험준비 
+						<input type="radio" name="purpose" value="시험준비">시험준비 
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="purpose" >취업 
+						<input type="radio" name="purpose" value="취업">취업 
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="purpose" >연계연수/워킹홀리데이 
+						<input type="radio" name="purpose" value="연계연수">연계연수/워킹홀리데이 
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="purpose" >해외취업 
+						<input type="radio" name="purpose" value="해외취업">해외취업 
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="purpose" >이민 
+						<input type="radio" name="purpose" value="이민">이민 
 					</label>
 					<label class="radio-inline">
-						<input type="radio" name="purpose" >기타 : 
-					</label><input class="form-control"></input>
+						<input type="radio" name="purpose" value="기타">기타 : 
+					</label>
 					</div>
 				</div>
+			</div>
+			<div class="col-xs-12">
+				<input class="form-control hidden" id="purposeother"></input>
 			</div>
 		</div>
 

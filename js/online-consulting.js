@@ -1,5 +1,18 @@
 jQuery(document).ready(function(e){
+	var dormitorytype = "",
+		purpose = "";
+
+	$('#input[name=dormitorytype]').on('select', function(e) {
+		console.log($(this).val());
+	});
+
 	$('#send-consultation').on("click", function(e){
+		dormitorytype = $('input[name=dormitorytype]:checked').val();
+		dormitorytype = (dormitorytype == "기타" ? $('#dormitorytypeother').val(): dormitorytype);
+
+		purpose = $('input[name=purpose]:checked').val();
+		purpose = (purpose == "기타" ? $('#purposeother').val(): purpose);
+
 		$.ajax({
 			url: '<?php echo admin_url( 'admin-ajax.php' ); ?>',
 			type: "POST",
@@ -12,7 +25,6 @@ jQuery(document).ready(function(e){
 				gender: $('input[name=gender]:checked').val(),
 				age: $('#age').val(),
 				program: $('#program').val(),
-				dormitory: $('#dormitory').val(),
 				dormitorytype: $('input[name=dormitorytype]:checked').val(),
 				purpose: $('input[name=purpose]:checked').val(),
 				currentenglevel: $('#currentenglevel').val(),
