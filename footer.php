@@ -260,7 +260,7 @@
 		</div>
 		</div>
 	</body>
-	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/jquery.min.js"></script>
+
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(document).on("ready", function(){
