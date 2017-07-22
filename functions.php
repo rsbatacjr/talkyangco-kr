@@ -410,9 +410,25 @@ function post_consultation_online() {
 
 	$subject = "";
 	$headers = array('Content-Type: text/html; charset=UTF-8');
-	$headers[] = str_replace(',rn"@mx-proxy001.phy.lolipop.jp', "", 'Reply-To: '.$email.' <'.$email.'>');
+	$headers[] = ['Reply-To: '.$email.' <'.$email.'>'];
 
-	$body = "";
+	$body = "
+	이름: $studentname<br>
+	영문이름: $englishname<br>
+	이메일: $email<br>
+	국가: $country<br>
+	전화번호: $phone<br>
+	성별: $gender<br>
+	나이: $age<br>
+	프로그램: $program<br>
+	기숙사: $dormitory<br>
+	기숙사 유형: $dormitorytype<br>
+	유학의 목적: $purpose<br>
+	현재 영어 수준: $currentenglevel<br>
+	예산: $budget<br>
+	어학연수 경험: learningexperience<br>
+	연수기간: $trainingperiod<br>
+	기타: $others";
 
 	
 	wp_mail( "reybatacjr@gmail.com", $subject, $body, $headers );
