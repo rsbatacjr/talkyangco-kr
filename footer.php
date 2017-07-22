@@ -37,7 +37,7 @@
 										<li><a href="http://128.199.136.69:81/philippine-holiday/">필리핀 휴일</a></li>
 										<li><a href="http://128.199.136.69:81/official-pickup-dates/">정규픽업일</a></li>
 										<li><a href="http://128.199.136.69:81/refund-policy/">환불규정</a></li>
-										<li><a href="">온라인 신청서</a></li>
+										<li><a href="http://128.199.136.69:81/online-registration/">온라인 신청서</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
@@ -63,7 +63,7 @@
 										<li><a href="http://128.199.136.69:81/short-term-study/">1~3주 단기 어학연수</a></li>
 										<li><a href="http://128.199.136.69:81/long-term-study/">장기유학</a></li>
 										<li><a href="http://128.199.136.69:81/best-price/">저렴한 어학연수</a></li>
-										<li><a href="">호주, 캐나다 연계연수</a></li>
+										<li><a href="http://128.199.136.69:81/philippines-and-other-countries/">호주, 캐나다 연계연수</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
@@ -140,7 +140,7 @@
 											<a href="http://128.199.136.69:81/philippine-holiday/">필리핀 휴일</a>
 											<a href="http://128.199.136.69:81/official-pickup-dates/">정규픽업일</a>
 											<a href="http://128.199.136.69:81/refund-policy/">환불규정</a>
-											<a href="">온라인 신청서</a>
+											<a href="http://128.199.136.69:81/online-registration/">온라인 신청서</a>
 									      </div>
 									    </div>
 									</div>
@@ -182,7 +182,7 @@
 											<a href="http://128.199.136.69:81/short-term-study/">1~3주 단기 어학연수</a>
 											<a href="http://128.199.136.69:81/long-term-study/">장기유학</a>
 											<a href="http://128.199.136.69:81/best-price/">저렴한 어학연수</a>
-											<a href="">호주, 캐나다 연계연수</a>
+											<a href="http://128.199.136.69:81/philippines-and-other-countries/">호주, 캐나다 연계연수</a>
 									      </div>
 									    </div>
 									</div>
