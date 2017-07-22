@@ -50,7 +50,7 @@
 										<li><a href="http://128.199.136.69:81/power-speaking/">Power Speaking</a></li>
 										<li><a href="http://128.199.136.69:81/job-ready/">Working Holiday</a></li>
 										<li><a href="http://128.199.136.69:81/family-esl/">Family ESL</a></li>
-										<li><a href="">연수상담</a></li>
+										<li><a href="http://128.199.136.69:81/online-consultation/">연수상담</a></li>
 									</ul>
 								</div>
 								<div class="col-md-2">
@@ -161,7 +161,7 @@
 											<a href="http://128.199.136.69:81/power-speaking/">Power Speaking</a>
 											<a href="http://128.199.136.69:81/job-ready/">Working Holiday</a>
 											<a href="http://128.199.136.69:81/family-esl/">Family ESL</a>
-											<a href="">연수상담</a>
+											<a href="http://128.199.136.69:81/online-consultation/">연수상담</a>
 									      </div>
 									    </div>
 									</div>
