@@ -1,9 +1,14 @@
-jQuery(document).ready(function(e){
+$(document).ready(function(e){
 	var dormitorytype = "",
 		purpose = "";
 
-	$('#input[name=dormitorytype]').on('select', function(e) {
-		console.log($(this).val());
+
+	$('input[name=dormitorytype]').change(function(e) {
+		if($(this).val() == '기타') {
+			$('#dormitorytypeother').toggleClass('hidden', false);
+		} else {
+			$('#dormitorytypeother').toggleClass('hidden', true);
+		}
 	});
 	
 	$('#send-consultation').on("click", function(e){

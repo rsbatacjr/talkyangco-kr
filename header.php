@@ -21,9 +21,24 @@
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/jquery.min.js"></script>
     <script type="javascript/text">
 	var adminajax = "<?php echo admin_url( 'admin-ajax.php' ); ?>";
+	function checkTop() {
+		$('#floating-search-tb').toggleClass('hidden', true);
+		if($(document).scrollTop() >= 120) {
+			$('#floating-menu').toggleClass('hidden',false);
+		} else if($(document).scrollTop() < 120) {
+			$('#floating-menu').toggleClass('hidden', true);
+		}
+	}
+	$(function(){
+		$(window).scroll(function() {
+console.log('s');
+			checkTop();
+		});
+	});
     </script>
+
 </head>
-	<body onscroll="checkTop();">
+	<body>
 <div id="floating-search-tb" class="hidden">
 <div class="input-group">
     <input id="s" type="text" class="form-control"/>
