@@ -6,8 +6,18 @@ $(document).ready(function(e){
 	$('input[name=dormitorytype]').change(function(e) {
 		if($(this).val() == '기타') {
 			$('#dormitorytypeother').toggleClass('hidden', false);
+                        $('#dormitorytypeother').focus();
 		} else {
 			$('#dormitorytypeother').toggleClass('hidden', true);
+		}
+	});
+
+	$('input[name=purpose]').change(function(e) {
+		if($(this).val() == '기타') {
+			$('#purposeother').toggleClass('hidden', false);
+			$('#purposeother').focus();
+		} else {
+			$('#purposeother').toggleClass('hidden', true);
 		}
 	});
 	

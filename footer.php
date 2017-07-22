@@ -269,6 +269,14 @@
 			$('.panel-title').on('click', function() {
 				$(this).find('i').text(($(this).find('i').text() == "+" ? "-" : "+"));
 			});
+			$(window).scroll(function() {
+				$('#floating-search-tb').toggleClass('hidden', true);
+		if($(document).scrollTop() >= 120) {
+			$('#floating-menu').toggleClass('hidden',false);
+		} else if($(document).scrollTop() < 120) {
+			$('#floating-menu').toggleClass('hidden', true);
+		}
+			});
 		});
 
 		$(document).on('click', '.search-lens', function() {
