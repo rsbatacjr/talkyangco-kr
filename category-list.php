@@ -26,22 +26,9 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-			<table class="table table-bordered">
-				<thead>
-					<tr>
-						<th style="width: 10%;">Number</th>
-						<th>Title</th>
-						<th style="width: 20%">Author</th>
-						<th style="width: 10%;">Date</th>
-						<th style="width: 10%;">Views</th>
-					</tr>
-				</thead>
-				<tbody>
-					<?php
-					listByPostType();
-					?>
-				</tbody>
-			</table>
+			<?php
+			listByPostType();
+			?>
 		</div>
 	</div>
 </div>

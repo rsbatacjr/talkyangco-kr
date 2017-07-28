@@ -349,17 +349,24 @@ function listByPostType() {
     $loop=new WP_Query($args);
 
     if($loop->have_posts()){
+    	$col = 0;
         while($loop->have_posts()):$loop->the_post();
-        	$htmlResult.=
-        	"
-        		<tr>
-        			<td>".get_the_ID()."</td>
-        			<td><a class=grey-link href='".get_permalink()."'>".get_the_title()."</a></td>
-        			<td>".get_the_author()."</td>
-        			<td>".get_the_date('Y.m.d')."</td>
-        			<td></td>
-        		</tr>
-        	";
+        	$col++;
+        	if ($col == 1) {
+        		$htmlResult.="<div class='row'>";
+        	}
+        	$htmlResult.="<div class='col-xs-12 col-md-6'>
+        					<a href='".get_permalink()."'>
+        						<img src=''><br>
+        						<h2>".get_the_title()."</h2>
+        						<p>".get_the_excerpt()."</p>
+    						</a>
+        				  </div>";
+
+        	if ($col == 2) {
+        		$htmlResult.="</div>";
+        		$col=0;
+        	}
         endwhile;
     }
 
