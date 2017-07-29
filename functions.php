@@ -427,11 +427,13 @@ function listByPostType2() {
 add_shortcode( 'show_footerImages', 'show_footerImages_func' );
 function show_footerImages_func($atts, $content = null) {
 	$htmlResult = "";
-	$post_type = get_post_meta(get_the_ID(), "category", true);
+	$a = shortcode_atts(array(
+        'post_type'=>'inside-philippines'
+    ), $atts);
 	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
 	wp_reset_query();
-    $args=array('post_type'=>$post_type,'order'=>'DESC', 'posts_per_page' => 12, 'paged' => $paged);
+    $args=array('post_type'=>$a['post_type'],'order'=>'DESC', 'posts_per_page' => 12, 'paged' => $paged);
     $loop=new WP_Query($args);
 
     if($loop->have_posts()){
@@ -466,6 +468,26 @@ function show_footerImages_func($atts, $content = null) {
 		<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
 	</div>
 <?php
+    }
+
+    echo $htmlResult;
+}
+
+add_shortcode( 'show_topThree', 'show_topThree_func' );
+function show_topThree_func($atts, $content = null) {
+	$htmlResult = "";
+	$a = shortcode_atts(array(
+        'post_type'=>'inside-philippines'
+    ), $atts);
+	wp_reset_query();
+    $args=array('post_type'=>$a['post_type'],'order'=>'DESC', 'posts_per_page' => 3);
+    $loop=new WP_Query($args);
+
+    if($loop->have_posts()){
+    	$col = 0;
+        while($loop->have_posts()):$loop->the_post();
+        	$htmlResult .= '<li><a href="'.get_permalink().'">'.get_the_title().'</li>';
+        endwhile;
     }
 
     echo $htmlResult;
