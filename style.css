@@ -508,6 +508,9 @@ h2 {
 	bottom:0;
 }
 @media (min-width: 768px) {
+	#floating-menu {
+		display: inline-block;
+	}
 	.panel-group {
 		margin-left: -66px;
 		margin-right: -66px;
@@ -656,18 +659,19 @@ h2 {
 }
 
 #floating-menu {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-background-color: #fff;
-z-index: 9;
-border-bottom: 1px solid #c0c0c0;
--webkit-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 9;
+	border-bottom: 1px solid #c0c0c0;
+	-webkit-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.75);
 }
 
 #floating-menu a {
-color: #333;
+	color: #333;
 }
