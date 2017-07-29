@@ -264,7 +264,7 @@
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('.dropdown-submenu a').on("click", function(e){
+			$('.dropdown-submenu a[href="#"]').on("click", function(e){
 				$(this).next('ul').toggle();
     				e.stopPropagation();
     				e.preventDefault();
@@ -278,11 +278,11 @@
 			});
 			$(window).scroll(function() {
 				$('#floating-search-tb').toggleClass('hidden', true);
-		if($(document).scrollTop() >= 120) {
-			$('#floating-menu').toggleClass('hidden',false);
-		} else if($(document).scrollTop() < 120) {
-			$('#floating-menu').toggleClass('hidden', true);
-		}
+				if($(document).scrollTop() >= 120 && $(window).width() > 960) {
+					$('#floating-menu').toggleClass('hidden',false);
+				} else if($(document).scrollTop() < 120) {
+					$('#floating-menu').toggleClass('hidden', true);
+				}
 			});
 		});
 
