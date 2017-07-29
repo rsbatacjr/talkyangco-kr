@@ -424,7 +424,7 @@ function show_footerImages_func($atts, $content = null) {
 	$htmlResult = "";
 	$post_type = get_post_meta(get_the_ID(), "category", true);
 	wp_reset_query();
-    $args=array('post_type'=>$a['post_type'],'order'=>'DESC', 'limit'=>12);
+    $args=array('post_type'=>$a['post_type'],'order'=>'DESC', 'posts_per_page'=>12);
     $loop=new WP_Query($args);
 
     if($loop->have_posts()){
