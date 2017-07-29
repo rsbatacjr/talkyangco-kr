@@ -75,7 +75,7 @@
 										<li><a href="http://128.199.136.69:81/meals/">토크의 식단</a></li>
 										<li><a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a></li>
 										<li><a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a></li>
-										<li><a href="">여행</a></li>
+										<li><a href="http://128.199.136.69:81/travel/">여행</a></li>
 									</ul>
 								</div>
 							</div>
@@ -203,7 +203,7 @@
 											<a href="http://128.199.136.69:81/meals/">토크의 식단</a>
 											<a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a>
 											<a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a>
-											<a href="">여행</a>
+											<a href="http://128.199.136.69:81/travel/">여행</a>
 									      </div>
 									    </div>
 									</div>
