@@ -15,7 +15,7 @@
 								</div>
 								<div class="col-md-2">
 									<ul>
-										<li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
+										<li><a href="#">유학까지의 흐름</a></li>
 										<li>&nbsp;</li>
 										<li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
 										<li><a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a></li>
@@ -30,7 +30,7 @@
 										<li><a href="">연수비용</a></li>
 										<li>&nbsp;</li>
 										<li><a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a></li>
-										<li><a href="">기숙사안내</a></li>
+										<li><a href="http://128.199.136.69:81/dormitory/">기숙사안내</a></li>
 										<li><a href="http://128.199.136.69:81/miscellaneous-fee/">현지비용</a></li>
 										<li><a href="http://128.199.136.69:81/ielts-official-test-dates/">IELTS  시험 일정</a></li>
 										<li><a href="http://128.199.136.69:81/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
