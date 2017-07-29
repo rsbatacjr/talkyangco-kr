@@ -341,6 +341,40 @@ function create_schedule_types_table() {
 	dbDelta($sql_create_table);
 }
 
+function listGalleryImage($galleryfield) {
+	$indicatorHtml = "";
+	$innerHtml = "";
+
+	$images = get_post_meta(get_the_ID(), $galleryfield, false);
+
+	$htmlResult = "<div id='" . $galleryfield . "-id' class='carousel slide' data-ride='carousel'>";
+	$slide = 0;
+	foreach ($images as $image) {
+		$indicatorHtml .= "<li data-target='#" . $galleryfield . "-id' data-slide-to='$slide' ".($indicatorHtml == "" ? "class='active'": "")."></li>";
+
+		$innerHtml .= "<div class='item'><img src='$image' /></div>";
+	}
+	$htmlResult .= "<ol class='carousel-indicators'>";
+	$htmlResult .= $indicatorHtml;
+	$htmlResult .= "</ol>";
+
+	$htmlResult .= "<div class='carousel-inner'>";
+	$htmlResult .= $innerHtml;
+	$htmlResult .= "</div>";
+	$htmlResult .= "
+			<a class='left carousel-control' href='#".$galleryfield."-id' data-slide='prev'>
+				<span class='glyphicon-chevron-left'></span>
+				<span class='sr-only'>Previous</span>
+			</a>
+			<a class='right carousel-control' href='#".$galleryfield."-id' data-slide='next'>
+				<span class='glyphicon-chevron-right'></span>
+				<span class='sr-only'>Next</span>
+			</a>
+		</div>";
+
+	return $htmlResult;
+}
+
 function listByPostType() {
 	$htmlResult = "";
 	$post_type = get_post_meta(get_the_ID(), "category", true);
