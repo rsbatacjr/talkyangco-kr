@@ -441,9 +441,11 @@ function show_footerImages_func($atts, $content = null) {
         		$htmlResult.="<div class='row'>";
         	}
         	$htmlResult.="<div class='col-xs-2'>
-        					<a href='".get_permalink()."'>
-        						<img src='$thumbnail[0]' style='display: block; max-width:100%; max-height:200px; width: auto; height: auto;'><br>
-    						</a>
+        					<div class='text-center' style='max-height: 200px; display: block; overflow: hidden'>
+	        					<a href='".get_permalink()."'>
+	        						<img src='$thumbnail[0]' style='display: block; max-width:100%; width: auto; height: auto;'><br>
+	    						</a>
+    						</div>
         				  </div>";
 
         	if ($col == 6) {
