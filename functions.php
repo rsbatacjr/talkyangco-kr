@@ -441,9 +441,9 @@ function show_footerImages_func($atts, $content = null) {
         		$htmlResult.="<div class='row'>";
         	}
         	$htmlResult.="<div class='col-xs-2'>
-        					<div class='text-center' style='max-height: 200px; display: block; overflow: hidden'>
+        					<div style='width: 100%; height: 200px; position: relative; overflow: hidden'>
 	        					<a href='".get_permalink()."'>
-	        						<img src='$thumbnail[0]' style='display: block; max-width:100%; width: auto; height: auto;'><br>
+	        						<img src='$thumbnail[0]' style='position:absolute;top:-25px; width: 100%; height:250px;'><br>
 	    						</a>
     						</div>
         				  </div>";
