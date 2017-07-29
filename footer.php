@@ -1,4 +1,5 @@
-<div class="row">	
+<div class="row">
+[show_footerImages post_type='inside-philippines']
 				<footer>
 					<div class="footer-menu visible-lg" style="padding-top:15px;">
 						<div class="container">

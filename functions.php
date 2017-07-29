@@ -416,6 +416,46 @@ function listByPostType2() {
     echo $htmlResult;
 }
 
+add_shortcode( 'show_footerImages', 'show_footerImages_func' );
+function show_footerImages_func($atts, $content = null) {
+	$a = shortcode_atts(array(
+        'post_type'=>'inside-philippines'
+    ), $atts);
+	$htmlResult = "";
+	$post_type = get_post_meta(get_the_ID(), "category", true);
+	wp_reset_query();
+    $args=array('post_type'=>$a['post_type'],'order'=>'DESC', 'limit'=>12);
+    $loop=new WP_Query($args);
+
+    if($loop->have_posts()){
+    	$col = 0;
+        while($loop->have_posts()):$loop->the_post();
+        	if(has_post_thumbnail($loop->ID)){
+        		$thumbnail=wp_get_attachment_image_src(get_post_thumbnail_id($loop->ID),'single-post-thumbnail');;
+        	} else {
+	        	$thumbnail='';
+	        }
+
+        	$col++;
+        	if ($col == 1) {
+        		$htmlResult.="<div class='row'>";
+        	}
+        	$htmlResult.="<div class='col-xs-2'>
+        					<a href='".get_permalink()."'>
+        						<img src='$thumbnail[0]' style='display: block; max-width:100%; max-height:200px; width: auto; height: auto;'><br>
+    						</a>
+        				  </div>";
+
+        	if ($col == 6) {
+        		$htmlResult.="</div>";
+        		$col=0;
+        	}
+        endwhile;
+    }
+
+    echo $htmlResult;
+}
+
 add_action( 'wp_ajax_nopriv_post_consultation_online', 'post_consultation_online' );
 add_action( 'wp_ajax_post_consultation_online', 'post_consultation_online' );
 function post_consultation_online() {
