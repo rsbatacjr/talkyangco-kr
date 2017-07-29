@@ -16,25 +16,25 @@ get_header();
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/yangco-esl/';">
+							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/esl-421-521-611/';">
 								<strong>회화과정</strong>
 								<p>ESL 521</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/toiec/';">
 								<strong>취업준비</strong>
 								<p>Intensive TOEIC</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/elts/';">
 								<strong>유학, 이민</strong>
 								<p>Intensive IELTS</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder">
+							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/family-esl/';">
 								<strong>가족연수</strong>
 								<p>Family ESL</p>
 							</div>
@@ -66,7 +66,7 @@ get_header();
 			</div>
 		</div>
 		<div id="experience-container" class="col-xs-12 col-sm-6 col-md-4">
-			<div id="experience">
+			<div id="experience" onclick="javascript:window.location='http://128.199.136.69:81/experiences/';">
 				<div class="mask">
 					<h2>연수후기</h2>
 					<div id="experience-normal">
@@ -86,7 +86,7 @@ get_header();
 	<div class="row">
 		<div id="notice-container" class="col-xs-12 col-md-4">
 			<div id="notice">
-				<strong>공지사항</strong>
+				<a href="http://128.199.136.69:81/notice/" style="text-decoration: none; color: #fff;"><strong>공지사항</strong></a>
 				<p>
 					토크의 최근 소식들을 미리 보실 수 있으며, 출국 전에 미리미리 확인하여 알찬 어학연수를 준비하시기 바랍니다.
 				</p>
@@ -98,9 +98,7 @@ get_header();
 						</div>
 					</div>
 					<ul id="notice-list">
-						<li><a href="#">5월 입학가능일 안내</a></li>
-						<li><a href="#">노용이 화난 날(Warning)</a></li>
-						<li><a href="#">노용이 소리 질른 날..ㅋㅋ</a></li>
+						<?php do_shortcode('[show_topThree post_type="news"]'); ?>
 					</ul>
 				</div>
 			</div>
@@ -113,7 +111,7 @@ get_header();
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list">
+									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/ielts-test/';">
 										<div class="plan-list-normal">
 											<p><br>IELTS<br>5.0, 5.5, 6.0</p>
 											<span class="plus-sign">+</span>
@@ -125,7 +123,7 @@ get_header();
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list">
+									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/intensive-speaking/';">
 										<div class="plan-list-normal">
 											<p><br>스피킹<br>집중과정</p>
 											<span class="plus-sign">+</span>
@@ -137,7 +135,7 @@ get_header();
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list">
+									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/short-term-study/'">
 										<div class="plan-list-normal">
 											<p><br>1~3주<br>단기 어학연수</p>
 											<span class="plus-sign">+</span>
@@ -153,7 +151,7 @@ get_header();
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list">
+									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/toeic-test/';">
 										<div class="plan-list-normal">
 											<p><br>TOEIC<br>600, 700, 800, 900</p>
 											<span class="plus-sign">+</span>
@@ -165,7 +163,7 @@ get_header();
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list">
+									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/philippines-and-other-countries/'">
 										<div class="plan-list-normal">
 											<p><br>호주, 캐나다<br>연계연수</p>
 											<span class="plus-sign">+</span>
@@ -178,7 +176,7 @@ get_header();
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list">
+									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/best-price/';">
 										<div class="plan-list-normal">
 											<p><br>저렴한<br>어학연수</p>
 											<span class="plus-sign">+</span>
@@ -201,12 +199,10 @@ get_header();
 		<div id="best-place-container" class="col-xs-12 col-md-4">
 			<div id="best-place">
 				<div class="mask">
-					<strong>여행 코스</strong>
+					<a href="http://128.199.136.69:81/travel/" style="text-decoration: none;color: #fff;"><strong>여행 코스</strong></a>
 					<div id="best-place-list-container">
 						<ul id="best-place-list">
-							<li><a href="#">바기오(Baguio City)</a></li>
-							<li><a href="#">당일치기 여행 코스</a></li>
-							<li><a href="#">1박2일 또는 2박3일 여행코스</a></li>
+							<?php do_shortcode('[show_topThree post_type="travel"]'); ?>
 						</ul>
 					</div>
 				</div>
@@ -214,12 +210,10 @@ get_header();
 		</div>
 		<div id="campaign-container" class="col-xs-12 col-md-4">
 			<div id="campaign">
-				<strong>진행중인 캠페인</strong>
+				<a href="http://128.199.136.69:81/campaigns/" style="text-decoration: none;color: #fff;"><strong>진행중인 캠페인</strong></a>
 				<div id="campaign-list-container">
 					<ul id="campaign-list">
-						<li><a href="#">IELTS수업을 Native와 함께 하자</a></li>
-						<li><a href="#">12주에 TOEIC 300점 UP</a></li>
-						<li><a href="#">무료 TOEIC 공인시험 제공</a></li>
+						<?php do_shortcode('[show_topThree post_type="campaign"]'); ?>
 					</ul>
 				</div>
 			</div>
@@ -231,12 +225,12 @@ get_header();
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666; border-bottom: 1px solid #666">
-								<div class="calendar-list">
+								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/philippine-holiday/';">
 									<p><br>필리핀 공휴일</p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6" style=" border-bottom: 1px solid #666">
-								<div class="calendar-list">
+								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/official-pickup-dates/';">
 									<p><br>단체픽업</p>
 								</div>
 							</div>
@@ -245,12 +239,12 @@ get_header();
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666">
-								<div class="calendar-list">
+								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/ielts-official-test-dates/';">
 									<p><br>IELTS<br>공인시험</p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6">
-								<div class="calendar-list">
+								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/toeic-official-test-dates/';">
 									<p><br>TOEIC<br>공인시험</p>
 								</div>
 							</div>
