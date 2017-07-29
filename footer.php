@@ -1,4 +1,4 @@
-<div class="row">
+			<div class="row">
 				<footer>
 					<div class="footer-menu visible-lg" style="padding-top:15px;">
 						<div class="container">
@@ -257,7 +257,7 @@
 						</div>
 					</div> 
 				</footer>
-		</div>
+			</div>
 		</div>
 	</body>
 
