@@ -262,7 +262,9 @@ get_header();
 	</div>
 </div>
 <div class="row">
-	<img src="<?php echo THEME_URI; ?>/img/sample-image1.png" class="img-responsive"/>
+<?php do_shortcode("[show_footerImages post_type='inside-philippines']"); ?>
+
+	<!-- <img src="<?php echo THEME_URI; ?>/img/sample-image1.png" class="img-responsive"/> -->
 </div>
 <?php 
 get_footer();
