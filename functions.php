@@ -344,8 +344,10 @@ function create_schedule_types_table() {
 function listByPostType() {
 	$htmlResult = "";
 	$post_type = get_post_meta(get_the_ID(), "category", true);
+	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
 	wp_reset_query();
-    $args=array('post_type'=>$post_type,'order'=>'DESC');
+    $args=array('post_type'=>$post_type,'order'=>'DESC', 'posts_per_page' => 12, 'paged' => $paged);
     $loop=new WP_Query($args);
 
     if($loop->have_posts()){
