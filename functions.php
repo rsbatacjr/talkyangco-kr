@@ -351,13 +351,19 @@ function listByPostType() {
     if($loop->have_posts()){
     	$col = 0;
         while($loop->have_posts()):$loop->the_post();
+        	if(has_post_thumbnail($loop->ID)){
+        		$thumbnail=wp_get_attachment_image_src(get_post_thumbnail_id($loop->ID),'single-post-thumbnail');;
+        	} else {
+	        	$thumbnail='';
+	        }
+
         	$col++;
         	if ($col == 1) {
         		$htmlResult.="<div class='row'>";
         	}
         	$htmlResult.="<div class='col-xs-12 col-md-6'>
         					<a href='".get_permalink()."'>
-        						<img src=''><br>
+        						<img src='$thumbnail[0]'><br>
         						<h2>".get_the_title()."</h2>
         						<p>".get_the_excerpt()."</p>
     						</a>
