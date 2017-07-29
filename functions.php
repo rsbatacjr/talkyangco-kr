@@ -426,13 +426,12 @@ function listByPostType2() {
 
 add_shortcode( 'show_footerImages', 'show_footerImages_func' );
 function show_footerImages_func($atts, $content = null) {
-	$a = shortcode_atts(array(
-        'post_type'=>'inside-philippines'
-    ), $atts);
 	$htmlResult = "";
 	$post_type = get_post_meta(get_the_ID(), "category", true);
+	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
 	wp_reset_query();
-    $args=array('post_type'=>$a['post_type'],'order'=>'DESC', 'posts_per_page'=>12);
+    $args=array('post_type'=>$post_type,'order'=>'DESC', 'posts_per_page' => 12, 'paged' => $paged);
     $loop=new WP_Query($args);
 
     if($loop->have_posts()){
@@ -448,19 +447,25 @@ function show_footerImages_func($atts, $content = null) {
         	if ($col == 1) {
         		$htmlResult.="<div class='row'>";
         	}
-        	$htmlResult.="<div class='col-xs-2' style='margin-bottom: 10px;".($col == 1 ? "padding-right: 5px" : ($col == 6 ? "padding-left: 5px" : "padding-left: 10px; padding-right: 10px"))."'>
-        					<div style='width: 100%; height: 200px; position: relative; overflow: hidden'>
-	        					<a href='".get_permalink()."'>
-	        						<img src='$thumbnail[0]' style='position:absolute;top:-25px; width: 100%; height:250px;'><br>
-	    						</a>
-    						</div>
+        	$htmlResult.="<div class='col-xs-12 col-md-6' style='margin-bottom: 15px;'>
+        					<a href='".get_permalink()."'>
+        						<img src='$thumbnail[0]' style='display: block; max-width:100%; max-height:200px; width: auto; height: auto; margin: 0 auto;'><br>
+        						<h2>".get_the_title()."</h2>
+        						<p>".get_the_excerpt()."</p>
+    						</a>
         				  </div>";
 
-        	if ($col == 6) {
+        	if ($col == 2) {
         		$htmlResult.="</div>";
         		$col=0;
         	}
         endwhile;
+	?>
+	<div class="row">
+		<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
+		<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+	</div>
+<?php
     }
 
     echo $htmlResult;

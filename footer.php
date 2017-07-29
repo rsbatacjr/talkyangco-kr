@@ -263,6 +263,13 @@
 
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.dropdown-submenu a').on("click", function(e){
+				$(this).next('ul').toggle();
+    				e.stopPropagation();
+    				e.preventDefault();
+  			});
+		});
 		$(document).on("ready", function(){
 			var ht = $('.center-this').height();
 			$('.center-this').css({"margin-top": "-" + ((ht-315)/2) + "px"});

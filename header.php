@@ -38,7 +38,10 @@
       <div class="container">
               <div class="col-xs-12 col-sm-12 col-md-8">
                 <ul class="nav navbar-nav">
-                  <li><a href="http://128.199.136.69:81/about-us/">학교소개</a></li>
+                  <li class="dropdown-menu">
+			<a href="http://128.199.136.69:81/about-us/">학교소개</a>
+			
+		  </li>
                   <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
                   <li><a href="#">연수비용</a></li>
                   <li><a href="#">토크의 학습방법</a></li>
@@ -100,7 +103,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-8">
                       <ul class="nav navbar-nav">
                         <li class="dropdown-submenu">
-                          <a href="http://128.199.136.69:81/about-us/">학교소개</a>
+                          <a href="#">학교소개</a>
                           <ul class="dropdown-menu">
                             <li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
                             <li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
