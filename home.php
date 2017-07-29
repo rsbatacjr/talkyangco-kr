@@ -210,7 +210,7 @@ get_header();
 		</div>
 		<div id="campaign-container" class="col-xs-12 col-md-4">
 			<div id="campaign">
-				<a href="http://128.199.136.69:81/campaigns/" style="text-decoration: none;color: #fff;"><strong>진행중인 캠페인</strong></a>
+				<a href="http://128.199.136.69:81/campaigns/" style="text-decoration: none;"><strong>진행중인 캠페인</strong></a>
 				<div id="campaign-list-container">
 					<ul id="campaign-list">
 						<?php do_shortcode('[show_topThree post_type="campaign"]'); ?>
