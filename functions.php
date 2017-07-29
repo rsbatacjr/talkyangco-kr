@@ -361,7 +361,7 @@ function listByPostType() {
         	if ($col == 1) {
         		$htmlResult.="<div class='row'>";
         	}
-        	$htmlResult.="<div class='col-xs-12 col-md-6'>
+        	$htmlResult.="<div class='col-xs-12 col-md-6' style='margin-bottom: 15px;'>
         					<a href='".get_permalink()."'>
         						<img src='$thumbnail[0]' style='display: block; max-width:100%; max-height:200px; width: auto; height: auto; margin: 0 auto;'><br>
         						<h2>".get_the_title()."</h2>
@@ -374,6 +374,12 @@ function listByPostType() {
         		$col=0;
         	}
         endwhile;
+	?>
+	<div class="row">
+		<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
+		<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+	</div>
+<?php
     }
 
     echo $htmlResult;
