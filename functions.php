@@ -363,11 +363,7 @@ function listByPostType() {
         	}
         	$htmlResult.="<div class='col-xs-12 col-md-6'>
         					<a href='".get_permalink()."'>
-        						<img src='$thumbnail[0]' style='display: block;
-  max-width:100%;
-  max-height:200px;
-  width: auto;
-  height: auto;'><br>
+        						<img src='$thumbnail[0]' style='display: block; max-width:100%; max-height:200px; width: auto; height: auto;'><br>
         						<h2>".get_the_title()."</h2>
         						<p>".get_the_excerpt()."</p>
     						</a>
