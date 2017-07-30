@@ -83,7 +83,7 @@
 					</div>
 					<div class="footer-menu visible-xs visible-sm visible-md">
 						<div class="container">
-							<div class="row">
+							<div class="col-xs-12">
 								<div class="panel-group">
 									<div class="panel">
 										<div class="panel-heading">
@@ -264,10 +264,18 @@
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('.dropdown-submenu a[href="#"]').on("click", function(e){
-				$(this).next('ul').toggle();
-    				e.stopPropagation();
-    				e.preventDefault();
+			$('.dropdown-submenu').on("mousemove", function(e){
+				var ul = $(this).find('ul');
+
+				if(ul.css("display") == "none")
+				{
+					ul.css({"display": "inline-block"});
+				}
+				// $(this).next('ul').toggle();
+				// e.stopPropagation();
+				// e.preventDefault();
+  			}).on("mouseout", function(e) {
+  				$(this).find('ul').css({"display": "none"});
   			});
 		});
 		$(document).on("ready", function(){
