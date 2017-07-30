@@ -111,38 +111,44 @@ get_header();
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/ielts-test/';">
+									<div class="plan-list">
 										<div class="plan-list-normal">
 											<p><br>IELTS<br>5.0, 5.5, 6.0</p>
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
-											<p>토크에서 보장하는 IELTS 점수로 해외대학에 입학 및 이민을 준비해 보세요.</p>
-											<span class="next-button-black"></span>
+											<a style="color:#666" href='http://128.199.136.69:81/ielts-test/'>
+												<p>토크에서 보장하는 IELTS 점수로 해외대학에 입학 및 이민을 준비해 보세요.</p>
+												<span class="next-button-black"></span>
+											</a>
 										</div>
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/intensive-speaking/';">
+									<div class="plan-list">
 										<div class="plan-list-normal">
 											<p><br>스피킹<br>집중과정</p>
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
-											<p>문법과 단어는 잘 알지만 회화가 부족하다면 스피킹 집중과정으로 마무리 해보세요.</p>
-											<span class="next-button-black"></span>
+											<a style="color:#666" href='http://128.199.136.69:81/intensive-speaking/'>
+												<p>문법과 단어는 잘 알지만 회화가 부족하다면 스피킹 집중과정으로 마무리 해보세요.</p>
+												<span class="next-button-black"></span>
+											</a>
 										</div>
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/short-term-study/'">
+									<div class="plan-list">
 										<div class="plan-list-normal">
 											<p><br>1~3주<br>단기 어학연수</p>
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
-											<p>시간이 부족하시면 영어에 대한 올바른 공부방법과 회화를 단기에 만들어보세요. </p>
-											<span class="next-button-black"></span>
+											<a style="color:#666" href='http://128.199.136.69:81/short-term-study/'>
+												<p>시간이 부족하시면 영어에 대한 올바른 공부방법과 회화를 단기에 만들어보세요. </p>
+												<span class="next-button-black"></span>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -151,39 +157,45 @@ get_header();
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/toeic-test/';">
+									<div class="plan-list">
 										<div class="plan-list-normal">
 											<p><br>TOEIC<br>600, 700, 800, 900</p>
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
-											<p>필리핀에서 최초의 보장반을 운영하는 토크에서 TOEIC점수와 TOEIC Speaking을 완벽하게 만들어 바로 취업하세요.</p>
-											<span class="next-button-black"></span>
+											<a href="http://128.199.136.69:81/toeic-test/">
+												<p>필리핀에서 최초의 보장반을 운영하는 토크에서 TOEIC점수와 TOEIC Speaking을 완벽하게 만들어 바로 취업하세요.</p>
+												<span class="next-button-black"></span>
+											</a>
 										</div>
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/philippines-and-other-countries/'">
+									<div class="plan-list">
 										<div class="plan-list-normal">
 											<p><br>호주, 캐나다<br>연계연수</p>
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
-											<p>미국, 캐나다, 호주, 유럽으로 유학을 가기 전에 아직 영어가 서투르다면 토크에서 탄탄하게 기본을 만들어 가세요.</p>
-											<span class="next-button-black"></span>
+											<a href="http://128.199.136.69:81/philippines-and-other-countries/">
+												<p>미국, 캐나다, 호주, 유럽으로 유학을 가기 전에 아직 영어가 서투르다면 토크에서 탄탄하게 기본을 만들어 가세요.</p>
+												<span class="next-button-black"></span>
+											</a>
 										</div>
 										
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">
-									<div class="plan-list" onclick="javascript:window.location.href='http://128.199.136.69:81/best-price/';">
+									<div class="plan-list">
 										<div class="plan-list-normal">
 											<p><br>저렴한<br>어학연수</p>
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
-											<p>어학연수 비용이 부담스러우신가요? 토크에 오시면 학생들을 위해 저렴한 어학연수를 준비해 놨습니다.</p>
-											<span class="next-button-black"></span>
+											<a href="http://128.199.136.69:81/best-price/">
+												<p>어학연수 비용이 부담스러우신가요? 토크에 오시면 학생들을 위해 저렴한 어학연수를 준비해 놨습니다.</p>
+												<span class="next-button-black"></span>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -225,13 +237,13 @@ get_header();
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666; border-bottom: 1px solid #666">
-								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/philippine-holiday/';">
-									<p><br>필리핀 공휴일</p>
+								<div class="calendar-list">
+									<p><br><a style="color:#666;" href='http://128.199.136.69:81/philippine-holiday/'>필리핀 공휴일</a></p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6" style=" border-bottom: 1px solid #666">
-								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/official-pickup-dates/';">
-									<p><br>단체픽업</p>
+								<div class="calendar-list">
+									<p><br><a style="color:#666;" href='http://128.199.136.69:81/official-pickup-dates/'>단체픽업</a></p>
 								</div>
 							</div>
 						</div>
@@ -239,13 +251,13 @@ get_header();
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666">
-								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/ielts-official-test-dates/';">
-									<p><br>IELTS<br>공인시험</p>
+								<div class="calendar-list">
+									<p><br><a style="color:#666;" href='http://128.199.136.69:81/ielts-official-test-dates/'>IELTS<br>공인시험</a></p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6">
-								<div class="calendar-list" onclick="javascript:window.location.href='http://128.199.136.69:81/toeic-official-test-dates/';">
-									<p><br>TOEIC<br>공인시험</p>
+								<div class="calendar-list">
+									<p><br><a style="color:#666;" href='http://128.199.136.69:81/toeic-official-test-dates/'>TOEIC<br>공인시험</a></p>
 								</div>
 							</div>
 						</div>

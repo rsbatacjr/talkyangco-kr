@@ -350,9 +350,10 @@ function listGalleryImage($galleryfield) {
 	$htmlResult = "<div id='" . $galleryfield . "-id' class='carousel slide' data-ride='carousel'>";
 	$slide = 0;
 	foreach ($images as $image) {
+		$innerHtml .= "<div class='item".($indicatorHtml == "" ? "class='active'": "")."'><img src='$image' /></div>";
+		
 		$indicatorHtml .= "<li data-target='#" . $galleryfield . "-id' data-slide-to='$slide' ".($indicatorHtml == "" ? "class='active'": "")."></li>";
-
-		$innerHtml .= "<div class='item'><img src='$image' /></div>";
+		$slide++;
 	}
 	$htmlResult .= "<ol class='carousel-indicators'>";
 	$htmlResult .= $indicatorHtml;
@@ -513,7 +514,7 @@ function show_topThree_func($atts, $content = null) {
     if($loop->have_posts()){
     	$col = 0;
         while($loop->have_posts()):$loop->the_post();
-        	$htmlResult .= '<li><a href="'.get_permalink().'">'.get_the_title().'</li>';
+        	$htmlResult .= '<li><a href="'.get_permalink().'">'.get_the_title().'</a></li>';
         endwhile;
     }
 
