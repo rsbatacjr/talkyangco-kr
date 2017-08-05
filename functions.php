@@ -5,6 +5,23 @@ define('THEME_URI', get_template_directory_uri());
 require_once('manage-schedule.php');
 require_once('manage-weblinks.php');
 
+
+
+function talk_content_filter($content)
+{
+	$type = get_post_type();
+	if($type == "inside-philippines" || $type == "meal" || $type == "campaign")
+	{
+		return str_replace('class="', 'class="img-responsive ', $content);
+	}
+	else
+	{
+		return $content;
+	}
+}
+
+add_filter('the_content', 'talk_content_filter');
+
 add_theme_support( 'post-thumbnails' );
 
 add_action('wp_enqueue_scripts', 'talkyangco_scripts');
@@ -344,15 +361,16 @@ function create_schedule_types_table() {
 function listGalleryImage($galleryfield) {
 	$indicatorHtml = "";
 	$innerHtml = "";
+	$ctr = 1;
 
 	$images = get_post_meta(get_the_ID(), $galleryfield, false);
 
-	$htmlResult = "<div id='" . $galleryfield . "-id' class='carousel slide' data-ride='carousel'>";
+	$htmlResult = "<div id='" . $galleryfield . "' class='carousel slide' data-ride='carousel'>";
 	$slide = 0;
 	foreach ($images as $image) {
-		$innerHtml .= "<div class='item".($indicatorHtml == "" ? "class='active'": "")."'><img src='$image' /></div>";
+		$innerHtml .= "<div class='item".($indicatorHtml == "" ? " active'": "")."'><img src='$image' class='gallery-image' /></div>";
 		
-		$indicatorHtml .= "<li data-target='#" . $galleryfield . "-id' data-slide-to='$slide' ".($indicatorHtml == "" ? "class='active'": "")."></li>";
+		$indicatorHtml .= "<li data-target='#" . $galleryfield . "' data-slide-to='$slide' ".($indicatorHtml == "" ? "class='active'": "")."></li>";
 		$slide++;
 	}
 	$htmlResult .= "<ol class='carousel-indicators'>";
@@ -363,16 +381,16 @@ function listGalleryImage($galleryfield) {
 	$htmlResult .= $innerHtml;
 	$htmlResult .= "</div>";
 	$htmlResult .= "
-			<a class='left carousel-control' href='#".$galleryfield."-id' data-slide='prev'>
-				<span class='glyphicon-chevron-left'></span>
+			<a class='left carousel-control' href='#".$galleryfield."' data-slide='prev'>
+				<!-- <span class='glyphicon-chevron-left'></span> -->
 				<span class='sr-only'>Previous</span>
 			</a>
-			<a class='right carousel-control' href='#".$galleryfield."-id' data-slide='next'>
-				<span class='glyphicon-chevron-right'></span>
+			<a class='right carousel-control' href='#".$galleryfield."' role='button' data-slide='next'>
+				<!-- <span class='glypicon glyphicon-chevron-right' aria-hidden='true'></span> -->
 				<span class='sr-only'>Next</span>
 			</a>
 		</div>";
-
+	$ctr++;
 	return $htmlResult;
 }
 
