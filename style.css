@@ -507,6 +507,14 @@ h2 {
 	position: absolute;
 	bottom:0;
 }
+.gallery-image {
+	width: 100%;
+}
+.carousel-inner {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
 @media (min-width: 768px) {
 	#floating-menu {
 		display: inline-block;
@@ -674,4 +682,14 @@ h2 {
 
 #floating-menu a {
 	color: #333;
+}
+
+.size-full {
+	width: auto !important;
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+.img-responsive {
+	display: inline-block !important;
 }
