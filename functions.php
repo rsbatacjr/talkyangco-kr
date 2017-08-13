@@ -73,7 +73,8 @@ function create_post_type() {
 			'excerpt', 
 			'custom-fields', 
 			'thumbnail',
-			'revisions'
+			'revisions',
+			'comments'
 			)
 		)
 	);
@@ -102,6 +103,7 @@ function create_post_type() {
 			'custom-fields',
 			'thumbnail',
 			'revisions',
+			'comments'
 			)
 		)
 	);
@@ -128,7 +130,8 @@ function create_post_type() {
 			'excerpt', 
 			'custom-fields', 
 			'thumbnail',
-			'revisions'
+			'revisions',
+			'comments'
 			)
 		)
 	);
@@ -155,7 +158,8 @@ function create_post_type() {
 			'excerpt', 
 			'custom-fields', 
 			'thumbnail',
-			'revisions'
+			'revisions',
+			'comments'
 			)
 		)
 	);
@@ -183,7 +187,8 @@ function create_post_type() {
 			'excerpt', 
 			'custom-fields', 
 			'thumbnail',
-			'revisions'
+			'revisions',
+			'comments'
 			)
 		)
 	);
@@ -210,7 +215,8 @@ function create_post_type() {
 				'excerpt', 
 				'custom-fields', 
 				'thumbnail',
-				'revisions'
+				'revisions',
+				'comments'
 				)
 			)
 		);
@@ -236,7 +242,8 @@ function create_post_type() {
 				'excerpt', 
 				'custom-fields', 
 				'thumbnail',
-				'revisions'
+				'revisions',
+				'comments'
 				)
 			)
 		);
@@ -263,7 +270,8 @@ function create_post_type() {
 				'excerpt', 
 				'custom-fields', 
 				'thumbnail',
-				'revisions'
+				'revisions',
+				'comments'
 				)
 			)
 		);
@@ -290,7 +298,8 @@ function create_post_type() {
 				'excerpt', 
 				'custom-fields', 
 				'thumbnail',
-				'revisions'
+				'revisions',
+				'comments'
 				)
 			)
 		);
@@ -317,7 +326,8 @@ function create_post_type() {
 				'excerpt', 
 				'custom-fields', 
 				'thumbnail',
-				'revisions'
+				'revisions',
+				'comments'
 				)
 			)
 		);
