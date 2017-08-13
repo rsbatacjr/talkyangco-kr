@@ -39,7 +39,7 @@
               <div class="col-xs-12 col-sm-12 col-md-8">
                 <ul class="nav navbar-nav">
                   <li class="dropdown-submenu">
-                    <a href="#">학교소개</a>
+                    <a href="http://128.199.136.69:81/about-us/">학교소개</a>
                     <ul class="dropdown-menu">
                       <li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
                       <li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
@@ -48,7 +48,7 @@
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
-                    <a href="#">유학까지의 흐름</a>
+                    <a href="/procedure/">유학까지의 흐름</a>
                     <ul class="dropdown-menu">
                       <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
                       <li><a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a></li>
@@ -59,7 +59,7 @@
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
-                    <a href="#">연수비용</a>
+                    <a href="/tuition-fee/">연수비용</a>
                     <ul class="dropdown-menu">
                       <li><a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a></li>
                       <li><a href="http://128.199.136.69:81/dormitory-type/">기숙사안내</a></li>
@@ -73,7 +73,7 @@
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
-                    <a href="#">토크의 학습방법</a>
+                    <a href="/more-about-talk">토크의 학습방법</a>
                     <ul class="dropdown-menu">
                       <li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
                       <li><a href="http://128.199.136.69:81/elts/">IELTS</a></li>
@@ -85,7 +85,7 @@
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
-                    <a href="#">필리핀어학연수계획</a>
+                    <a href="/philippine-language-study-plan">필리핀어학연수계획</a>
                     <ul class="dropdown-menu">
                       <li><a href="http://128.199.136.69:81/toeic-test/">TOEIC 시험</a></li>
                       <li><a href="http://128.199.136.69:81/ielts-test/">IELTS 시험</a></li>
@@ -97,7 +97,7 @@
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
-                    <a href="#">커뮤니티</a>
+                    <a href="/notice/">커뮤니티</a>
                     <ul class="dropdown-menu">
                       <li><a href="http://128.199.136.69:81/notice/">공지사항</a></li>
                       <li><a href="http://128.199.136.69:81/experiences/">연수후기</a></li>
@@ -139,14 +139,14 @@
                     <div class="hidden-xs row" style="position: absolute; top: 16px;">
                       <div class="container">
                       <div class="col-xs-12 col-md-8">
-                        <div id="login-box">
+                        <div id="login-box" class="hidden">
                           <a href="#">Sign in</a> / <a href="#">Join</a>
                           <hr style="margin-top: 5px;">
                         </div>
                       </div>
                       <div class="col-xs-12 col-md-4">
                         <div id="quick-links">
-                          <a href="#">안내책자</a> | <a href="#">OT자료</a> | <a href="#">상담문의</a>
+                          <a href="http://128.199.136.69:81/wp-content/uploads/2017/08/Brochure-1700519KR.pdf" target="_blank">안내책자</a> | <a href="http://128.199.136.69:81/wp-content/uploads/2017/08/KOREA-TALK-OT-170329.pdf" target="_blank">OT자료</a> | <a href="http://128.199.136.69:81/online-consultation/">상담문의</a>
                         </div>
                       </div>
                       </div>
@@ -164,7 +164,7 @@
 
                       <ul class="nav navbar-nav">
                         <li class="dropdown-submenu">
-                          <a href="#">학교소개</a>
+                          <a href="/about-us/">학교소개</a>
                           <ul class="dropdown-menu">
                             <li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
                             <li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
@@ -173,7 +173,7 @@
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
-                          <a href="#">유학까지의 흐름</a>
+                          <a href="/procedure/">유학까지의 흐름</a>
                           <ul class="dropdown-menu">
                             <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
                             <li><a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a></li>
@@ -184,7 +184,7 @@
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
-                          <a href="#">연수비용</a>
+                          <a href="/tuition-fee/">연수비용</a>
                           <ul class="dropdown-menu">
                             <li><a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a></li>
                             <li><a href="http://128.199.136.69:81/dormitory-type/">기숙사안내</a></li>
@@ -222,7 +222,7 @@
                           </ul>
                         </li>
                       <li class="dropdown-submenu">
-                        <a href="#">커뮤니티</a>
+                        <a href="/notice/">커뮤니티</a>
                         <ul class="dropdown-menu">
                           <li><a href="http://128.199.136.69:81/notice/">공지사항</a></li>
                           <li><a href="http://128.199.136.69:81/experiences/">연수후기</a></li>
