@@ -1,10 +1,11 @@
 <?php
 require_once('wp_bootstrap_navwalker.php');
-define('HOME_PAGE', "http://talkyangco.dev:7000");
+define('HOME_PAGE', "http://128.199.136.69:81");
 define('THEME_URI', get_template_directory_uri());
 require_once('manage-schedule.php');
 require_once('manage-weblinks.php');
 
+add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 
 
 function talk_content_filter($content)

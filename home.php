@@ -48,7 +48,7 @@ get_header();
 		<div id="about-container" class="col-xs-12 col-sm-6 col-md-4">
 			<div id="about">
 				<div class="mask">
-					<h2>학원 둘러보기</h2>
+					<h2 style='background-color:transparent'>학원 둘러보기</h2>
 					<div id="about-normal">
 						<p>입학 전 미리 보는 기숙사와 강의실</p>
 						<span class="plus-sign">+</span>
@@ -68,7 +68,7 @@ get_header();
 		<div id="experience-container" class="col-xs-12 col-sm-6 col-md-4">
 			<div id="experience" onclick="javascript:window.location='http://128.199.136.69:81/experiences/';">
 				<div class="mask">
-					<h2>연수후기</h2>
+					<h2 style='background-color:transparent'>연수후기</h2>
 					<div id="experience-normal">
 						<p>학원에 일상생활 미리보기</p>
 						<span class="plus-sign">+</span>
