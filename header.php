@@ -26,14 +26,14 @@
 
 </head>
 	<body>
-    <div id="floating-search-tb" class="hidden">
+    <!-- <div id="floating-search-tb" class="hidden">
       <div class="input-group">
           <input id="s" type="text" class="form-control"/>
           <span class="input-group-addon">
               <i class="fa fa-search"></i>
           </span>
       </div>
-    </div>
+    </div> -->
     <div id="floating-menu" class="hidden">
       <div class="container">
               <div class="col-xs-12 col-sm-12 col-md-8">
@@ -113,7 +113,6 @@
                 <div class="row">
                   <div class="search-lens">
                     <span class="fa fa-search"></span>
-                    <!-- <input placeholder="수색"> -->
                   </div>
                 </div>
               </div>
@@ -135,12 +134,11 @@
             <div class="container">
                 <nav class="navbar navbar-default" role="navigation">
                   <div class="navbar-header">
-                    <p class="visible-xs" style="position: absolute; top: 15px; right: 65px;"><a href="#">Sign in</a> / <a href="#">Join</a> | Menu</p>
+                    <a id="logo" class="navbar-brand visible-xs" href="<?php echo HOME_PAGE; ?>"><img src="<?php echo THEME_URI; ?>/img/talk-logo.png" style="width:48px !important; height:48px !important; margin-bottom: 25px;"></a>
                     <div class="hidden-xs row" style="position: absolute; top: 16px;">
                       <div class="container">
                       <div class="col-xs-12 col-md-8">
                         <div id="login-box" class="hidden">
-                          <a href="#">Sign in</a> / <a href="#">Join</a>
                           <hr style="margin-top: 5px;">
                         </div>
                       </div>
@@ -151,14 +149,24 @@
                       </div>
                       </div>
                     </div>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse-xs">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
                   </div>
-                  <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                  <div class="collapse navbar-collapse" id="example-navbar-collapse-xs">
+                    <ul class="nav navbar-nav">
+                      <li>
+                      <li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
+                      <li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
+                      <li><a href="http://128.199.136.69:81/strengths/">특징</a></li>
+                      <li><a href="http://128.199.136.69:81/location/">오시는 길</a></li>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="collapse navbar-collapse hidden-xs" id="example-navbar-collapse">
                     <div class="col-xs-12 col-sm-12 col-md-8">
                     <a id="logo" class="navbar-brand" style="position:absolute;top: -55px; left: -40px;" href="<?php echo HOME_PAGE; ?>"><img src="<?php echo THEME_URI; ?>/img/talk-logo.png"></a>
 
@@ -198,7 +206,7 @@
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
-                          <a href="#">토크의 학습방법</a>
+                          <a href="/more-about-talk">토크의 학습방법</a>
                           <ul class="dropdown-menu">
                             <li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
                             <li><a href="http://128.199.136.69:81/elts/">IELTS</a></li>
@@ -210,7 +218,7 @@
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
-                          <a href="#">필리핀어학연수계획</a>
+                          <a href="/philippine-language-study-plan">필리핀어학연수계획</a>
                           <ul class="dropdown-menu">
                             <li><a href="http://128.199.136.69:81/toeic-test/">TOEIC 시험</a></li>
                             <li><a href="http://128.199.136.69:81/ielts-test/">IELTS 시험</a></li>
@@ -237,7 +245,15 @@
                     <div class="col-xs-12 col-sm-12 col-md-4">
                       <div class="row">
                         <div class="search-lens">
-                          <span class="fa fa-search"></span>
+                          <span class="fa fa-search">Search</span>
+                          <div class="floating-search-tb hidden">
+                            <div class="input-group">
+                                <input id="s" type="text" class="form-control"/>
+                                <span class="input-group-addon">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
