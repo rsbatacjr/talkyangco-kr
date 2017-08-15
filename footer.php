@@ -295,9 +295,22 @@
 		});
 
 		$(document).on('click', '.search-lens', function() {
-			$('#floating-search-tb').toggleClass('hidden', false);
-			$('#floating-search-tb').css("top", ($(this).position().top + $(this).height() + $(this).css("margin-top"))+ "px");
+			$(this).find('.floating-search-tb').toggleClass('hidden', !$(this).find('.floating-search-tb').hasClass("hidden"));
+			// console.log(parseInt($(this).position().top));
+			// $('#floating-search-tb').css("top", (parseInt($(this).position().top) + parseInt($(this).height()) + parseInt($(this).css("margin-top")))+ "px");
 		});
+
+		$(document).on("scroll", function() {
+			if ($(this).scrollTop() >= 119)
+			{
+				console.log($(this).scrollTop());
+				$('#floating-menu').toggleClass("hidden", false);
+			}
+			else if($(this).scrollTop() <= 119)
+			{
+				$('#floating-menu').toggleClass("hidden", true);
+			}
+		})
 
 	</script>
 </html>
