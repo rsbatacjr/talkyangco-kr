@@ -34,9 +34,10 @@
           </span>
       </div>
     </div> -->
-    <div id="floating-menu" class="hidden">
+    <div id="floating-menu" class="hidden hidden-xs hidden-sm">
       <div class="container">
               <div class="col-xs-12 col-sm-12 col-md-8">
+                <a id="logo" class="navbar-brand" href="<?php echo HOME_PAGE; ?>"><img src="<?php echo THEME_URI; ?>/img/talk-logo.png" style="width:48px !important; height:48px !important;position:absolute; top: 1px;left:1px"></a>
                 <ul class="nav navbar-nav">
                   <li class="dropdown-submenu">
                     <a href="http://128.199.136.69:81/about-us/">학교소개</a>
@@ -113,6 +114,16 @@
                 <div class="row">
                   <div class="search-lens">
                     <span class="fa fa-search"></span>
+                    <div class="floating-search-tb hidden">
+                      <div class="input-group">
+                        <form action="/" method="get" role="search">
+                            <input name="s" type="text" class="form-control" style="width: 210px !important; float: left;" />
+                            <span class="input-group-addon" style="width: 40px; height: 34px; float: left;" onclick="javascript:$(this).closest('form').submit();">
+                                <i class="fa fa-search"></i>
+                            </span>
+                          </form>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -245,13 +256,15 @@
                     <div class="col-xs-12 col-sm-12 col-md-4">
                       <div class="row">
                         <div class="search-lens">
-                          <span class="fa fa-search">Search</span>
+                          <span class="fa fa-search"></span>
                           <div class="floating-search-tb hidden">
                             <div class="input-group">
-                                <input id="s" type="text" class="form-control"/>
-                                <span class="input-group-addon">
-                                    <i class="fa fa-search"></i>
-                                </span>
+                              <form action="/" method="get" role="search">
+                                  <input name="s" type="text" class="form-control" style="width: 210px !important; float: left;" />
+                                  <span class="input-group-addon" style="width: 40px; height: 34px; float: left;" onclick="javascript:$(this).closest('form').submit();">
+                                      <i class="fa fa-search"></i>
+                                  </span>
+                                </form>
                             </div>
                           </div>
                         </div>

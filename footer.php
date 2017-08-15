@@ -295,7 +295,9 @@
 		});
 
 		$(document).on('click', '.search-lens', function() {
-			$(this).find('.floating-search-tb').toggleClass('hidden', !$(this).find('.floating-search-tb').hasClass("hidden"));
+			$(this).find('.floating-search-tb').toggleClass('hidden', false);
+			$(this).find('.floating-search-tb').find('input[name="s"]').focus();
+			// $(this).find('.floating-search-tb').toggleClass('hidden', !$(this).find('.floating-search-tb').hasClass("hidden"));
 			// console.log(parseInt($(this).position().top));
 			// $('#floating-search-tb').css("top", (parseInt($(this).position().top) + parseInt($(this).height()) + parseInt($(this).css("margin-top")))+ "px");
 		});
