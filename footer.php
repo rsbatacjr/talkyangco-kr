@@ -83,13 +83,14 @@
 					</div>
 					<div class="footer-menu visible-xs visible-sm visible-md">
 						<div class="container">
+							<div class="row">
 							<div class="col-xs-12">
 								<div class="panel-group">
 									<div class="panel">
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse1">학교소개</a>
-	<i>+</i>
+												<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse1" class="panel-collapse collapse">
@@ -107,7 +108,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse2">유학까지의 흐름</a>
-	<i>+</i>
+												<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse2" class="panel-collapse collapse">
@@ -127,7 +128,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse3">연수비용</a>
-	<i>+</i>
+												<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse3" class="panel-collapse collapse">
@@ -150,7 +151,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse4">토크의 학습방법</a>
-	<i>+</i>
+												<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse4" class="panel-collapse collapse">
@@ -171,7 +172,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse5">필리핀어학연수 계획</a>
-	<i>+</i>
+												<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse5" class="panel-collapse collapse">
@@ -193,7 +194,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" href="#collapse6">커뮤니티</a>
-	<i>+</i>
+												<i>+</i>
 											</h4>
 										</div>
 										<div id="collapse6" class="panel-collapse collapse">
@@ -208,6 +209,7 @@
 									    </div>
 									</div>
 								</div>
+							</div>
 							</div>
 						</div>
 					</div>

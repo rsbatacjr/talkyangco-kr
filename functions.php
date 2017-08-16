@@ -512,8 +512,8 @@ function show_footerImages_func($atts, $content = null) {
         	if ($col == 1) {
         		$htmlResult.="<div class='row'>";
         	}
-        	$htmlResult.="<div class='col-xs-2' style='margin-bottom: 10px;".($col == 1 ? "padding-right: 5px" : ($col == 6 ? "padding-left: 5px" : "padding-left: 10px; padding-right: 10px"))."'>
-        					<div style='width: 100%; height: 200px; position: relative; overflow: hidden'>
+        	$htmlResult.="<div class='col-xs-3 col-md-2' style='margin-bottom: 10px;".($col == 1 ? "padding-right: 5px" : ($col == 6 ? "padding-left: 5px" : "padding-left: 10px; padding-right: 10px"))."'>
+        					<div style='width: 100%; height: auto; max-height: 200px; position: relative; overflow: hidden'>
 	        					<a href='".get_permalink()."'>
 	        						<img src='$thumbnail[0]' style='position:absolute;top:-25px; width: 100%; height:250px;'><br>
 	    						</a>
@@ -937,7 +937,7 @@ function show_online_registration_form_func() {
 					</div>
 					<div class="col-xs-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="dormitory1">생년월일 <span style="color:rgb(255,0,0)">*</span></label>
+							<label class="control-label col-xs-4" for="dormitory1">기숙사 <span style="color:rgb(255,0,0)">*</span></label>
 							<div class="col-xs-8">
 								<select class="form-control" id="dormitory1" name="dormitory1">
 									<option value="1">Yanco Center 2 ACC</option>
@@ -984,7 +984,7 @@ function show_online_registration_form_func() {
 					</div>
 					<div class="col-xs-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="dormitory2">생년월일</label>
+							<label class="control-label col-xs-4" for="dormitory2">기숙사</label>
 							<div class="col-xs-8">
 								<select class="form-control" id="dormitory2" name="dormitory2">
 									<option value="1">Yanco Center 2 ACC</option>
@@ -1059,5 +1059,12 @@ function show_online_registration_form_func() {
 	
     <script src="<?php echo THEME_URI; ?>/js/online-consulting.js"></script>
 	<?php
+	return ob_get_clean();
+}
+
+add_shortcode('show_floating_contact_form', 'show_floating_contact_form_func');
+function show_floating_contact_form_func() {
+	ob_start();
+
 	return ob_get_clean();
 }
