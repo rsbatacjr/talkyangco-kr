@@ -26,14 +26,6 @@
 
 </head>
 	<body>
-    <!-- <div id="floating-search-tb" class="hidden">
-      <div class="input-group">
-          <input id="s" type="text" class="form-control"/>
-          <span class="input-group-addon">
-              <i class="fa fa-search"></i>
-          </span>
-      </div>
-    </div> -->
     <div id="floating-menu" class="hidden hidden-xs hidden-sm">
       <div class="container">
               <div class="col-xs-12 col-sm-12 col-md-8">
