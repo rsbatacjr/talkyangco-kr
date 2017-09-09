@@ -40,72 +40,72 @@
                 <a id="logo" class="navbar-brand" href="<?php echo HOME_PAGE; ?>"><img src="<?php echo THEME_URI; ?>/img/talk-logo.png" style="width:48px !important; height:48px !important;position:absolute; top: 1px;left:1px"></a>
                 <ul class="nav navbar-nav">
                   <li class="dropdown-submenu">
-                    <a href="http://128.199.136.69:81/about-us/">학교소개</a>
+                    <a href="http://talk-academy.kr/about-us/">학교소개</a>
                     <ul class="dropdown-menu">
-                      <li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
-                      <li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
-                      <li><a href="http://128.199.136.69:81/strengths/">특징</a></li>
-                      <li><a href="http://128.199.136.69:81/location/">오시는 길</a></li>
+                      <li><a href="http://talk-academy.kr/about-us/">연혁</a></li>
+                      <li><a href="http://talk-academy.kr/greetings/">인사말</a></li>
+                      <li><a href="http://talk-academy.kr/strengths/">특징</a></li>
+                      <li><a href="http://talk-academy.kr/location/">오시는 길</a></li>
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a href="/procedure/">유학까지의 흐름</a>
                     <ul class="dropdown-menu">
-                      <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
-                      <li><a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a></li>
-                      <li><a href="http://128.199.136.69:81/faqs/">FAQ</a></li>
-                      <li><a href="http://128.199.136.69:81/medical-and-insurance/">의료 체제와 보험</a></li>
-                      <li><a href="http://128.199.136.69:81/way-to-baguio/">바기오 가는 방법</a></li>
-                      <li><a href="http://128.199.136.69:81/campaigns/">캠페인</a></li>
+                      <li><a href="http://talk-academy.kr/procedure/">유학까지의 흐름</a></li>
+                      <li><a href="http://talk-academy.kr/about-preparation/">유학준비에 대해</a></li>
+                      <li><a href="http://talk-academy.kr/faqs/">FAQ</a></li>
+                      <li><a href="http://talk-academy.kr/medical-and-insurance/">의료 체제와 보험</a></li>
+                      <li><a href="http://talk-academy.kr/way-to-baguio/">바기오 가는 방법</a></li>
+                      <li><a href="http://talk-academy.kr/campaigns/">캠페인</a></li>
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a href="/tuition-fee/">연수비용</a>
                     <ul class="dropdown-menu">
-                      <li><a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a></li>
-                      <li><a href="http://128.199.136.69:81/dormitory-type/">기숙사안내</a></li>
-                      <li><a href="http://128.199.136.69:81/miscellaneous-fee/">현지비용</a></li>
-                      <li><a href="http://128.199.136.69:81/ielts-official-test-dates/">IELTS  시험 일정</a></li>
-                      <li><a href="http://128.199.136.69:81/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
-                      <li><a href="http://128.199.136.69:81/philippine-holiday/">필리핀 휴일</a></li>
-                      <li><a href="http://128.199.136.69:81/official-pickup-dates/">정규픽업일</a></li>
-                      <li><a href="http://128.199.136.69:81/refund-policy/">환불규정</a></li>
-                      <li><a href="http://128.199.136.69:81/online-registration/">온라인 신청서</a></li>
+                      <li><a href="http://talk-academy.kr/tuition-fee/">연수비용안내</a></li>
+                      <li><a href="http://talk-academy.kr/dormitory-type/">기숙사안내</a></li>
+                      <li><a href="http://talk-academy.kr/miscellaneous-fee/">현지비용</a></li>
+                      <li><a href="http://talk-academy.kr/ielts-official-test-dates/">IELTS  시험 일정</a></li>
+                      <li><a href="http://talk-academy.kr/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
+                      <li><a href="http://talk-academy.kr/philippine-holiday/">필리핀 휴일</a></li>
+                      <li><a href="http://talk-academy.kr/official-pickup-dates/">정규픽업일</a></li>
+                      <li><a href="http://talk-academy.kr/refund-policy/">환불규정</a></li>
+                      <li><a href="http://talk-academy.kr/online-registration/">온라인 신청서</a></li>
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a href="/more-about-talk">토크의 학습방법</a>
                     <ul class="dropdown-menu">
-                      <li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
-                      <li><a href="http://128.199.136.69:81/elts/">IELTS</a></li>
-                      <li><a href="http://128.199.136.69:81/toiec/">TOEIC</a></li>
-                      <li><a href="http://128.199.136.69:81/power-speaking/">Power Speaking</a></li>
-                      <li><a href="http://128.199.136.69:81/job-ready/">Working Holiday</a></li>
-                      <li><a href="http://128.199.136.69:81/family-esl/">Family ESL</a></li>
-                      <li><a href="http://128.199.136.69:81/online-consultation/">연수상담</a></li>
+                      <li><a href="http://talk-academy.kr/yangco-esl/">ESL 421, 521, 611</a></li>
+                      <li><a href="http://talk-academy.kr /elts/">IELTS</a></li>
+                      <li><a href="http://talk-academy.kr /toiec/">TOEIC</a></li>
+                      <li><a href="http://talk-academy.kr /power-speaking/">Power Speaking</a></li>
+                      <li><a href="http://talk-academy.kr /job-ready/">Working Holiday</a></li>
+                      <li><a href="http://talk-academy.kr /family-esl/">Family ESL</a></li>
+                      <li><a href="http://talk-academy.kr /online-consultation/">연수상담</a></li>
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a href="/philippine-language-study-plan">필리핀어학연수계획</a>
                     <ul class="dropdown-menu">
-                      <li><a href="http://128.199.136.69:81/toeic-test/">TOEIC 시험</a></li>
-                      <li><a href="http://128.199.136.69:81/ielts-test/">IELTS 시험</a></li>
-                      <li><a href="http://128.199.136.69:81/intensive-speaking/">스피킹 집중</a></li>
-                      <li><a href="http://128.199.136.69:81/short-term-study/">1~3주 단기 어학연수</a></li>
-                      <li><a href="http://128.199.136.69:81/long-term-study/">장기유학</a></li>
-                      <li><a href="http://128.199.136.69:81/best-price/">저렴한 어학연수</a></li>
-                      <li><a href="http://128.199.136.69:81/philippines-and-other-countries/">호주, 캐나다 연계연수</a></li>
+                      <li><a href="http://talk-academy.kr /toeic-test/">TOEIC 시험</a></li>
+                      <li><a href="http://talk-academy.kr /ielts-test/">IELTS 시험</a></li>
+                      <li><a href="http://talk-academy.kr /intensive-speaking/">스피킹 집중</a></li>
+                      <li><a href="http://talk-academy.kr /short-term-study/">1~2주 단기 어학연수</a></li>
+                      <li><a href="http://talk-academy.kr /long-term-study/">장기유학</a></li>
+                      <li><a href="http://talk-academy.kr /best-price/">저렴한 어학연수</a></li>
+                      <li><a href="http://talk-academy.kr /philippines-and-other-countries/">호주, 캐나다 연계연수</a></li>
                     </ul>
                   </li>
                   <li class="dropdown-submenu">
                     <a href="/notice/">커뮤니티</a>
                     <ul class="dropdown-menu">
-                      <li><a href="http://128.199.136.69:81/notice/">공지사항</a></li>
-                      <li><a href="http://128.199.136.69:81/experiences/">연수후기</a></li>
-                      <li><a href="http://128.199.136.69:81/meals/">토크의 식단</a></li>
-                      <li><a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a></li>
-                      <li><a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a></li>
-                      <li><a href="http://128.199.136.69:81/travel/">여행</a></li>
+                      <li><a href="http://talk-academy.kr /notice/">공지사항</a></li>
+                      <li><a href="http://talk-academy.kr /experiences/">연수후기</a></li>
+                      <li><a href="http://talk-academy.kr /meals/">토크의 식단</a></li>
+                      <li><a href="http://talk-academy.kr /inside-philippine/">미리보는 필리핀</a></li>
+                      <li><a href="http://talk-academy.kr /best-students-and-teachers/">명예의 전당</a></li>
+                      <li><a href="http://talk-academy.kr /travels/">여행</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -155,7 +155,7 @@
                       </div>
                       <div class="col-xs-12 col-md-4">
                         <div id="quick-links">
-                          <a href="http://128.199.136.69:81/wp-content/uploads/2017/08/Brochure-1700519KR.pdf" target="_blank">안내책자</a> | <a href="http://128.199.136.69:81/wp-content/uploads/2017/08/KOREA-TALK-OT-170329.pdf" target="_blank">OT자료</a> | <a href="http://128.199.136.69:81/online-consultation/">상담문의</a>
+                          <a href="http://talk-academy.kr/wp-content/uploads/2017/08/Brochure-1700519KR.pdf" target="_blank">안내책자</a> | <a href="http://talk-academy.kr/wp-content/uploads/2017/08/KOREA-TALK-OT-170329.pdf" target="_blank">OT자료</a> | <a href="http://talk-academy.kr/online-consultation/">상담문의</a>
                         </div>
                       </div>
                       </div>
@@ -172,70 +172,70 @@
                       <li class="mobile-dropdown">
                       <span data-toggle="collapse" data-target="#first-mobile-menu">연혁</span>
                         <ul id="first-mobile-menu" class="collapse">
-                          <li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
-                          <li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
-                          <li><a href="http://128.199.136.69:81/strengths/">특징</a></li>
-                          <li><a href="http://128.199.136.69:81/location/">오시는 길</a></li>
+                          <li><a href="http://talk-academy.kr/about-us/">연혁</a></li>
+                          <li><a href="http://talk-academy.kr/greetings/">인사말</a></li>
+                          <li><a href="http://talk-academy.kr/strengths/">특징</a></li>
+                          <li><a href="http://talk-academy.kr/location/">오시는 길</a></li>
                         </ul>
                       </li>
                       <li class="mobile-dropdown">
                           <span data-toggle="collapse" data-target="#second-mobile-menu">유학까지의 흐름</span>
                           <ul id="second-mobile-menu" class="collapse">
-                            <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
-                            <li><a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a></li>
-                            <li><a href="http://128.199.136.69:81/faqs/">FAQ</a></li>
-                            <li><a href="http://128.199.136.69:81/medical-and-insurance/">의료 체제와 보험</a></li>
-                            <li><a href="http://128.199.136.69:81/way-to-baguio/">바기오 가는 방법</a></li>
-                            <li><a href="http://128.199.136.69:81/campaigns/">캠페인</a></li>
+                            <li><a href="http://talk-academy.kr/procedure/">유학까지의 흐름</a></li>
+                            <li><a href="http://talk-academy.kr/about-preparation/">유학준비에 대해</a></li>
+                            <li><a href="http://talk-academy.kr/faqs/">FAQ</a></li>
+                            <li><a href="http://talk-academy.kr/medical-and-insurance/">의료 체제와 보험</a></li>
+                            <li><a href="http://talk-academy.kr/way-to-baguio/">바기오 가는 방법</a></li>
+                            <li><a href="http://talk-academy.kr/campaigns/">캠페인</a></li>
                           </ul>
                         </li>
                         <li class="mobile-dropdown">
                           <span data-toggle="collapse" data-target="#third-mobile-menu">연수비용</span>
                           <ul id="third-mobile-menu" class="collapse">
-                            <li><a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a></li>
-                            <li><a href="http://128.199.136.69:81/dormitory-type/">기숙사안내</a></li>
-                            <li><a href="http://128.199.136.69:81/miscellaneous-fee/">현지비용</a></li>
-                            <li><a href="http://128.199.136.69:81/ielts-official-test-dates/">IELTS  시험 일정</a></li>
-                            <li><a href="http://128.199.136.69:81/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
-                            <li><a href="http://128.199.136.69:81/philippine-holiday/">필리핀 휴일</a></li>
-                            <li><a href="http://128.199.136.69:81/official-pickup-dates/">정규픽업일</a></li>
-                            <li><a href="http://128.199.136.69:81/refund-policy/">환불규정</a></li>
-                            <li><a href="http://128.199.136.69:81/online-registration/">온라인 신청서</a></li>
+                            <li><a href="http://talk-academy.kr/tuition-fee/">연수비용안내</a></li>
+                            <li><a href="http://talk-academy.kr/dormitory-type/">기숙사안내</a></li>
+                            <li><a href="http://talk-academy.kr/miscellaneous-fee/">현지비용</a></li>
+                            <li><a href="http://talk-academy.kr/ielts-official-test-dates/">IELTS  시험 일정</a></li>
+                            <li><a href="http://talk-academy.kr/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
+                            <li><a href="http://talk-academy.kr/philippine-holiday/">필리핀 휴일</a></li>
+                            <li><a href="http://talk-academy.kr/official-pickup-dates/">정규픽업일</a></li>
+                            <li><a href="http://talk-academy.kr/refund-policy/">환불규정</a></li>
+                            <li><a href="http://talk-academy.kr/online-registration/">온라인 신청서</a></li>
                           </ul>
                         </li>
                         <li class="mobile-dropdown">
                           <span data-toggle="collapse" data-target="#fourth-mobile-menu">토크의 학습방법</span>
                           <ul id="fourth-mobile-menu" class="collapse">
-                            <li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
-                            <li><a href="http://128.199.136.69:81/elts/">IELTS</a></li>
-                            <li><a href="http://128.199.136.69:81/toiec/">TOEIC</a></li>
-                            <li><a href="http://128.199.136.69:81/power-speaking/">Power Speaking</a></li>
-                            <li><a href="http://128.199.136.69:81/job-ready/">Working Holiday</a></li>
-                            <li><a href="http://128.199.136.69:81/family-esl/">Family ESL</a></li>
-                            <li><a href="http://128.199.136.69:81/online-consultation/">연수상담</a></li>
+                            <li><a href="http://talk-academy.kr/yangco-esl/">ESL 421, 521, 611</a></li>
+                            <li><a href="http://talk-academy.kr/elts/">IELTS</a></li>
+                            <li><a href="http://talk-academy.kr/toiec/">TOEIC</a></li>
+                            <li><a href="http://talk-academy.kr/power-speaking/">Power Speaking</a></li>
+                            <li><a href="http://talk-academy.kr/job-ready/">Working Holiday</a></li>
+                            <li><a href="http://talk-academy.kr/family-esl/">Family ESL</a></li>
+                            <li><a href="http://talk-academy.kr/online-consultation/">연수상담</a></li>
                           </ul>
                         </li>
                         <li class="mobile-dropdown">
-                          <<span data-toggle="collapse" data-target="#fifth-mobile-menu">필리핀어학연수계획</span>
+                          <span data-toggle="collapse" data-target="#fifth-mobile-menu">필리핀어학연수계획</span>
                           <ul id="fifth-mobile-menu" class="collapse">
-                            <li><a href="http://128.199.136.69:81/toeic-test/">TOEIC 시험</a></li>
-                            <li><a href="http://128.199.136.69:81/ielts-test/">IELTS 시험</a></li>
-                            <li><a href="http://128.199.136.69:81/intensive-speaking/">스피킹 집중</a></li>
-                            <li><a href="http://128.199.136.69:81/short-term-study/">1~3주 단기 어학연수</a></li>
-                            <li><a href="http://128.199.136.69:81/long-term-study/">장기유학</a></li>
-                            <li><a href="http://128.199.136.69:81/best-price/">저렴한 어학연수</a></li>
-                            <li><a href="http://128.199.136.69:81/philippines-and-other-countries/">호주, 캐나다 연계연수</a></li>
+                            <li><a href="http://talk-academy.kr/toeic-test/">TOEIC 시험</a></li>
+                            <li><a href="http://talk-academy.kr/ielts-test/">IELTS 시험</a></li>
+                            <li><a href="http://talk-academy.kr/intensive-speaking/">스피킹 집중</a></li>
+                            <li><a href="http://talk-academy.kr/short-term-study/">1~2주 단기 어학연수</a></li>
+                            <li><a href="http://talk-academy.kr/long-term-study/">장기유학</a></li>
+                            <li><a href="http://talk-academy.kr/best-price/">저렴한 어학연수</a></li>
+                            <li><a href="http://talk-academy.kr/philippines-and-other-countries/">호주, 캐나다 연계연수</a></li>
                           </ul>
                         </li>
                       <li class="mobile-dropdown">
                         <span data-toggle="collapse" data-target="#sixth-mobile-menu">커뮤니티</span>
                         <ul id="sixth-mobile-menu" class="collapse">
-                          <li><a href="http://128.199.136.69:81/notice/">공지사항</a></li>
-                          <li><a href="http://128.199.136.69:81/experiences/">연수후기</a></li>
-                          <li><a href="http://128.199.136.69:81/meals/">토크의 식단</a></li>
-                          <li><a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a></li>
-                          <li><a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a></li>
-                          <li><a href="http://128.199.136.69:81/travel/">여행</a></li>
+                          <li><a href="http://talk-academy.kr/notice/">공지사항</a></li>
+                          <li><a href="http://talk-academy.kr/experiences/">연수후기</a></li>
+                          <li><a href="http://talk-academy.kr/meals/">토크의 식단</a></li>
+                          <li><a href="http://talk-academy.kr/inside-philippine/">미리보는 필리핀</a></li>
+                          <li><a href="http://talk-academy.kr/best-students-and-teachers/">명예의 전당</a></li>
+                          <li><a href="http://talk-academy.kr/travels/">여행</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -248,70 +248,70 @@
                         <li class="dropdown-submenu">
                           <a href="/about-us/">학교소개</a>
                           <ul class="dropdown-menu">
-                            <li><a href="http://128.199.136.69:81/about-us/">연혁</a></li>
-                            <li><a href="http://128.199.136.69:81/greetings/">인사말</a></li>
-                            <li><a href="http://128.199.136.69:81/strengths/">특징</a></li>
-                            <li><a href="http://128.199.136.69:81/location/">오시는 길</a></li>
+                            <li><a href="http://talk-academy.kr/about-us/">연혁</a></li>
+                            <li><a href="http://talk-academy.kr/greetings/">인사말</a></li>
+                            <li><a href="http://talk-academy.kr/strengths/">특징</a></li>
+                            <li><a href="http://talk-academy.kr/location/">오시는 길</a></li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
                           <a href="/procedure/">유학까지의 흐름</a>
                           <ul class="dropdown-menu">
-                            <li><a href="http://128.199.136.69:81/procedure/">유학까지의 흐름</a></li>
-                            <li><a href="http://128.199.136.69:81/about-preparation/">유학준비에 대해</a></li>
-                            <li><a href="http://128.199.136.69:81/faqs/">FAQ</a></li>
-                            <li><a href="http://128.199.136.69:81/medical-and-insurance/">의료 체제와 보험</a></li>
-                            <li><a href="http://128.199.136.69:81/way-to-baguio/">바기오 가는 방법</a></li>
-                            <li><a href="http://128.199.136.69:81/campaigns/">캠페인</a></li>
+                            <li><a href="http://talk-academy.kr/procedure/">유학까지의 흐름</a></li>
+                            <li><a href="http://talk-academy.kr/about-preparation/">유학준비에 대해</a></li>
+                            <li><a href="http://talk-academy.kr/faqs/">FAQ</a></li>
+                            <li><a href="http://talk-academy.kr/medical-and-insurance/">의료 체제와 보험</a></li>
+                            <li><a href="http://talk-academy.kr/way-to-baguio/">바기오 가는 방법</a></li>
+                            <li><a href="http://talk-academy.kr/campaigns/">캠페인</a></li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
                           <a href="/tuition-fee/">연수비용</a>
                           <ul class="dropdown-menu">
-                            <li><a href="http://128.199.136.69:81/tuition-fee/">연수비용안내</a></li>
-                            <li><a href="http://128.199.136.69:81/dormitory-type/">기숙사안내</a></li>
-                            <li><a href="http://128.199.136.69:81/miscellaneous-fee/">현지비용</a></li>
-                            <li><a href="http://128.199.136.69:81/ielts-official-test-dates/">IELTS  시험 일정</a></li>
-                            <li><a href="http://128.199.136.69:81/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
-                            <li><a href="http://128.199.136.69:81/philippine-holiday/">필리핀 휴일</a></li>
-                            <li><a href="http://128.199.136.69:81/official-pickup-dates/">정규픽업일</a></li>
-                            <li><a href="http://128.199.136.69:81/refund-policy/">환불규정</a></li>
-                            <li><a href="http://128.199.136.69:81/online-registration/">온라인 신청서</a></li>
+                            <li><a href="http://talk-academy.kr/tuition-fee/">연수비용안내</a></li>
+                            <li><a href="http://talk-academy.kr/dormitory-type/">기숙사안내</a></li>
+                            <li><a href="http://talk-academy.kr/miscellaneous-fee/">현지비용</a></li>
+                            <li><a href="http://talk-academy.kr/ielts-official-test-dates/">IELTS  시험 일정</a></li>
+                            <li><a href="http://talk-academy.kr/toeic-official-test-dates/">TOEIC 시험 일정</a></li>
+                            <li><a href="http://talk-academy.kr/philippine-holiday/">필리핀 휴일</a></li>
+                            <li><a href="http://talk-academy.kr/official-pickup-dates/">정규픽업일</a></li>
+                            <li><a href="http://talk-academy.kr/refund-policy/">환불규정</a></li>
+                            <li><a href="http://talk-academy.kr/online-registration/">온라인 신청서</a></li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
                           <a href="/more-about-talk">토크의 학습방법</a>
                           <ul class="dropdown-menu">
-                            <li><a href="http://128.199.136.69:81/yangco-esl/">ESL 421, 521, 611</a></li>
-                            <li><a href="http://128.199.136.69:81/elts/">IELTS</a></li>
-                            <li><a href="http://128.199.136.69:81/toiec/">TOEIC</a></li>
-                            <li><a href="http://128.199.136.69:81/power-speaking/">Power Speaking</a></li>
-                            <li><a href="http://128.199.136.69:81/job-ready/">Working Holiday</a></li>
-                            <li><a href="http://128.199.136.69:81/family-esl/">Family ESL</a></li>
-                            <li><a href="http://128.199.136.69:81/online-consultation/">연수상담</a></li>
+                            <li><a href="http://talk-academy.kr/yangco-esl/">ESL 421, 521, 611</a></li>
+                            <li><a href="http://talk-academy.kr/elts/">IELTS</a></li>
+                            <li><a href="http://talk-academy.kr/toiec/">TOEIC</a></li>
+                            <li><a href="http://talk-academy.kr/power-speaking/">Power Speaking</a></li>
+                            <li><a href="http://talk-academy.kr/job-ready/">Working Holiday</a></li>
+                            <li><a href="http://talk-academy.kr/family-esl/">Family ESL</a></li>
+                            <li><a href="http://talk-academy.kr/online-consultation/">연수상담</a></li>
                           </ul>
                         </li>
                         <li class="dropdown-submenu">
                           <a href="/philippine-language-study-plan">필리핀어학연수계획</a>
                           <ul class="dropdown-menu">
-                            <li><a href="http://128.199.136.69:81/toeic-test/">TOEIC 시험</a></li>
-                            <li><a href="http://128.199.136.69:81/ielts-test/">IELTS 시험</a></li>
-                            <li><a href="http://128.199.136.69:81/intensive-speaking/">스피킹 집중</a></li>
-                            <li><a href="http://128.199.136.69:81/short-term-study/">1~3주 단기 어학연수</a></li>
-                            <li><a href="http://128.199.136.69:81/long-term-study/">장기유학</a></li>
-                            <li><a href="http://128.199.136.69:81/best-price/">저렴한 어학연수</a></li>
-                            <li><a href="http://128.199.136.69:81/philippines-and-other-countries/">호주, 캐나다 연계연수</a></li>
+                            <li><a href="http://talk-academy.kr/toeic-test/">TOEIC 시험</a></li>
+                            <li><a href="http://talk-academy.kr/ielts-test/">IELTS 시험</a></li>
+                            <li><a href="http://talk-academy.kr/intensive-speaking/">스피킹 집중</a></li>
+                            <li><a href="http://talk-academy.kr/short-term-study/">1~2주 단기 어학연수</a></li>
+                            <li><a href="http://talk-academy.kr/long-term-study/">장기유학</a></li>
+                            <li><a href="http://talk-academy.kr/best-price/">저렴한 어학연수</a></li>
+                            <li><a href="http://talk-academy.kr/philippines-and-other-countries/">호주, 캐나다 연계연수</a></li>
                           </ul>
                         </li>
                       <li class="dropdown-submenu">
                         <a href="/notice/">커뮤니티</a>
                         <ul class="dropdown-menu">
-                          <li><a href="http://128.199.136.69:81/notice/">공지사항</a></li>
-                          <li><a href="http://128.199.136.69:81/experiences/">연수후기</a></li>
-                          <li><a href="http://128.199.136.69:81/meals/">토크의 식단</a></li>
-                          <li><a href="http://128.199.136.69:81/inside-philippine/">미리보는 필리핀</a></li>
-                          <li><a href="http://128.199.136.69:81/best-students-and-teachers/">명예의 전당</a></li>
-                          <li><a href="http://128.199.136.69:81/travel/">여행</a></li>
+                          <li><a href="http://talk-academy.kr/notice/">공지사항</a></li>
+                          <li><a href="http://talk-academy.kr/experiences/">연수후기</a></li>
+                          <li><a href="http://talk-academy.kr/meals/">토크의 식단</a></li>
+                          <li><a href="http://talk-academy.kr/inside-philippine/">미리보는 필리핀</a></li>
+                          <li><a href="http://talk-academy.kr/best-students-and-teachers/">명예의 전당</a></li>
+                          <li><a href="http://talk-academy.kr/travels/">여행</a></li>
                         </ul>
                       </li>
                       </ul>
