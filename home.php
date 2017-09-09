@@ -16,25 +16,25 @@ get_header();
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/esl-421-521-611/';">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.kr/esl-421-521-611/';">
 								<strong>회화과정</strong>
 								<p>ESL 521</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/toiec/';">
+							<div class="course-builder" onclick="javascript:window.location = 'http:/talk-academy.kr/toiec/';">
 								<strong>취업준비</strong>
 								<p>Intensive TOEIC</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/elts/';">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.kr/elts/';">
 								<strong>유학, 이민</strong>
 								<p>Intensive IELTS</p>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder" onclick="javascript:window.location = 'http://128.199.136.69:81/family-esl/';">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.kr/family-esl/';">
 								<strong>가족연수</strong>
 								<p>Family ESL</p>
 							</div>
@@ -66,7 +66,7 @@ get_header();
 			</div>
 		</div>
 		<div id="experience-container" class="col-xs-12 col-sm-6 col-md-4">
-			<div id="experience" onclick="javascript:window.location='http://128.199.136.69:81/experiences/';">
+			<div id="experience" onclick="javascript:window.location='http://talk-academy.kr/experiences/';">
 				<div class="mask">
 					<h2 style='background-color:transparent'>연수후기</h2>
 					<div id="experience-normal">
@@ -86,7 +86,7 @@ get_header();
 	<div class="row">
 		<div id="notice-container" class="col-xs-12 col-md-4">
 			<div id="notice">
-				<a href="http://128.199.136.69:81/notice/" style="text-decoration: none; color: #fff;"><strong>공지사항</strong></a>
+				<a href="http://talk-academy.kr/notice/" style="text-decoration: none; color: #fff;"><strong>공지사항</strong></a>
 				<p>
 					토크의 최근 소식들을 미리 보실 수 있으며, 출국 전에 미리미리 확인하여 알찬 어학연수를 준비하시기 바랍니다.
 				</p>
@@ -117,7 +117,7 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
-											<a style="color:#666" href='http://128.199.136.69:81/ielts-test/'>
+											<a style="color:#666" href='http://talk-academy.kr/ielts-test/'>
 												<p>토크에서 보장하는 IELTS 점수로 해외대학에 입학 및 이민을 준비해 보세요.</p>
 												<span class="next-button-black"></span>
 											</a>
@@ -131,7 +131,7 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
-											<a style="color:#666" href='http://128.199.136.69:81/intensive-speaking/'>
+											<a style="color:#666" href='http://talk-academy.kr/intensive-speaking/'>
 												<p>문법과 단어는 잘 알지만 회화가 부족하다면 스피킹 집중과정으로 마무리 해보세요.</p>
 												<span class="next-button-black"></span>
 											</a>
@@ -145,7 +145,7 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>	
 										<div class="plan-list-hover">
-											<a style="color:#666" href='http://128.199.136.69:81/short-term-study/'>
+											<a style="color:#666" href='http://talk-academy.kr/short-term-study/'>
 												<p>시간이 부족하시면 영어에 대한 올바른 공부방법과 회화를 단기에 만들어보세요. </p>
 												<span class="next-button-black"></span>
 											</a>
@@ -163,7 +163,7 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
-											<a href="http://128.199.136.69:81/toeic-test/">
+											<a href="http://talk-academy.kr/toeic-test/">
 												<p>필리핀에서 최초의 보장반을 운영하는 토크에서 TOEIC점수와 TOEIC Speaking을 완벽하게 만들어 바로 취업하세요.</p>
 												<span class="next-button-black"></span>
 											</a>
@@ -177,7 +177,7 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
-											<a href="http://128.199.136.69:81/philippines-and-other-countries/">
+											<a href="http://talk-academy.kr/philippines-and-other-countries/">
 												<p>미국, 캐나다, 호주, 유럽으로 유학을 가기 전에 아직 영어가 서투르다면 토크에서 탄탄하게 기본을 만들어 가세요.</p>
 												<span class="next-button-black"></span>
 											</a>
@@ -192,7 +192,7 @@ get_header();
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
-											<a href="http://128.199.136.69:81/best-price/">
+											<a href="http://talk-academy.kr/best-price/">
 												<p>어학연수 비용이 부담스러우신가요? 토크에 오시면 학생들을 위해 저렴한 어학연수를 준비해 놨습니다.</p>
 												<span class="next-button-black"></span>
 											</a>
@@ -211,7 +211,7 @@ get_header();
 		<div id="best-place-container" class="col-xs-12 col-md-4">
 			<div id="best-place">
 				<div class="mask">
-					<a href="http://128.199.136.69:81/travel/" style="text-decoration: none;color: #fff;"><strong>여행 코스</strong></a>
+					<a href="http://talk-academy.kr/travel/" style="text-decoration: none;color: #fff;"><strong>여행 코스</strong></a>
 					<div id="best-place-list-container">
 						<ul id="best-place-list">
 							<?php do_shortcode('[show_topThree post_type="travel"]'); ?>
@@ -222,7 +222,7 @@ get_header();
 		</div>
 		<div id="campaign-container" class="col-xs-12 col-md-4">
 			<div id="campaign">
-				<a href="http://128.199.136.69:81/campaigns/" style="text-decoration: none;"><strong>진행중인 캠페인</strong></a>
+				<a href="http://talk-yangco.kr/campaigns/" style="text-decoration: none;"><strong>진행중인 캠페인</strong></a>
 				<div id="campaign-list-container">
 					<ul id="campaign-list">
 						<?php do_shortcode('[show_topThree post_type="campaign"]'); ?>
@@ -238,12 +238,12 @@ get_header();
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666; border-bottom: 1px solid #666">
 								<div class="calendar-list">
-									<p><br><a style="color:#666;" href='http://128.199.136.69:81/philippine-holiday/'>필리핀 공휴일</a></p>
+									<p><br><a style="color:#666;" href='http://talk-academy.kr/philippine-holiday/'>필리핀 공휴일</a></p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6" style=" border-bottom: 1px solid #666">
 								<div class="calendar-list">
-									<p><br><a style="color:#666;" href='http://128.199.136.69:81/official-pickup-dates/'>단체픽업</a></p>
+									<p><br><a style="color:#666;" href='http://talk-academy.kr/official-pickup-dates/'>단체픽업</a></p>
 								</div>
 							</div>
 						</div>
@@ -252,12 +252,12 @@ get_header();
 						<div class="col-xs-12">
 							<div class="calendar-list-parent col-xs-6" style="border-right:1px solid #666">
 								<div class="calendar-list">
-									<p><br><a style="color:#666;" href='http://128.199.136.69:81/ielts-official-test-dates/'>IELTS<br>공인시험</a></p>
+									<p><br><a style="color:#666;" href='http://talk-academy.kr/ielts-official-test-dates/'>IELTS<br>공인시험</a></p>
 								</div>
 							</div>
 							<div class="calendar-list-parent col-xs-6">
 								<div class="calendar-list">
-									<p><br><a style="color:#666;" href='http://128.199.136.69:81/toeic-official-test-dates/'>TOEIC<br>공인시험</a></p>
+									<p><br><a style="color:#666;" href='http://talk-academy.kr/toeic-official-test-dates/'>TOEIC<br>공인시험</a></p>
 								</div>
 							</div>
 						</div>

@@ -7,6 +7,17 @@ Author: Reynaldo S. Batac Jr.
 Author Email: reynaldo.batac@outlook.com
 */
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.mobile-fonts {
+	font-size: 71%;
+}
+
+.footer-image {
+	min-height: 80px;
+}
+
+.carousel-indicators {
+	display:none;
+}
 .mobile-dropdown {
 	padding: 5px 0;
 }
@@ -536,6 +547,15 @@ h2 {
 	margin-bottom: 15px;
 }
 @media (min-width: 768px) {
+	.mobile-fonts {
+		font-size: 100%;
+	}
+	.footer-image {
+		height: 150px;
+	}
+	.carousel-indicators {
+		display: inline-block;
+	}
 	#example-navbar-collapse-xs { display: none !important; }
 	.navbar-header.in {
 		height:  50px;

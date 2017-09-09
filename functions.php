@@ -1,6 +1,6 @@
 <?php
 require_once('wp_bootstrap_navwalker.php');
-define('HOME_PAGE', "http://128.199.136.69:81");
+define('HOME_PAGE', "http://talk-academy.kr");
 define('THEME_URI', get_template_directory_uri());
 require_once('manage-schedule.php');
 require_once('manage-weblinks.php');
@@ -11,7 +11,7 @@ add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form'
 function talk_content_filter($content)
 {
 	$type = get_post_type();
-	if($type == "inside-philippines" || $type == "meal" || $type == "campaign")
+	if($type == "inside-philippines" || $type == "meal" || $type == "campaign" || $type == "travel")
 	{
 		return str_replace('class="', 'class="img-responsive ', $content);
 	}
@@ -440,11 +440,9 @@ function listByPostType() {
         		$col=0;
         	}
         endwhile;
+$htmlResult.=next_posts_link();
+$htmlResult.=previous_posts_link();
 	?>
-	<div class="row">
-		<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
-		<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
-	</div>
 <?php
     }
 
@@ -468,12 +466,12 @@ function listByPostType2() {
                 $htmlResult.=
                 "
                         <div class='row'>
-				<div class='col-xs-4 col-md-3'>
+				<div class='col-xs-12 col-sm-4 col-md-3'>
 				<a href='".get_permalink()."'>
 					<div style='background-image:url($thumbnail[0]);width:100%;height:100%;min-height:150px;background-size:150%;background-position:center;margin-bottom:25px;'></div>
 				</a>
 				</div>
-				<div class='col-xs-8 col-md-9'>
+				<div class='col-xs-12 col-sm-8 col-md-9'>
                                 <a style='color:#333' href='".get_permalink()."'><h3 style='margin:0;'>".get_the_title()."</h3></a>
                                 <strong>".get_the_author()."</strong>
                                 <span style='color:#c0c0c0'>".get_the_date('Y.m.d')."</span><br>
@@ -512,10 +510,10 @@ function show_footerImages_func($atts, $content = null) {
         	if ($col == 1) {
         		$htmlResult.="<div class='row'>";
         	}
-        	$htmlResult.="<div class='col-xs-3 col-md-2' style='margin-bottom: 10px;".($col == 1 ? "padding-right: 5px" : ($col == 6 ? "padding-left: 5px" : "padding-left: 10px; padding-right: 10px"))."'>
-        					<div style='width: 100%; height: auto; max-height: 200px; position: relative; overflow: hidden'>
+        	$htmlResult.="<div class='col-xs-4 col-md-2' style='margin-bottom: 10px;".($col == 1 ? "padding-right: 5px" : ($col == 6 ? "padding-left: 5px" : "padding-left: 10px; padding-right: 10px"))."'>
+        					<div class='footer-image' style='width: 100%; max-height: 200px; position: relative; overflow: hidden'>
 	        					<a href='".get_permalink()."'>
-	        						<img src='$thumbnail[0]' style='position:absolute;top:-25px; width: 100%; height:250px;'><br>
+	        						<img  src='$thumbnail[0]' style='position:absolute;top:-25px; width: 100%; height:250px;'><br>
 	    						</a>
     						</div>
         				  </div>";
@@ -589,18 +587,18 @@ function show_consultation_online_form_func() {
 	?>
 	<div class="form-horizontal">
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="studentname">이름 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="studentname">이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="studentname" name="studentname"></input>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="englishname">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="englishname">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="englishname" name="englishname"></input>
 					</div>
 				</div>
@@ -609,36 +607,36 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-2" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-10">
+					<label class="control-label col-xs-3 col-md-4" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="email" name="email"></input>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="country">국가 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="country">국가 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="country" name="country"></input>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="phone">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="phone">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="phone" name="phone"></input>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">성별</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4">성별</label>
+					<div class="col-xs-9 col-md-8">
 						<label class="radio-inline">
 				      		<input type="radio" name="gender" value="M">남
 					    </label>
@@ -648,20 +646,20 @@ function show_consultation_online_form_func() {
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="age">나이</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="age">나이</label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="age" name="age"></input>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="program">프로그램</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="program">프로그램</label>
+					<div class="col-xs-9 col-md-8">
 						<select class="form-control" id="program" name="program">
 							<option value="1">ESL 421, 521, 611</option>
 							<option value="2">Intensive IELTS</option>
@@ -679,8 +677,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
 				<div class="form-group">
-					<label class="control-label col-xs-4">기숙사 유형</label>
-					<div class="col-xs-9">
+					<label class="control-label col-xs-3 col-md-4">기숙사 유형</label>
+					<div class="col-xs-9 col-md-8">
 					<label class="radio-inline">
 						<input type="radio" name="dormitorytype" value="1인실">1인실 
 					</label>
@@ -706,8 +704,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-2">유학의 목적</label>
-					<div class="col-xs-10">
+					<label class="control-label col-xs-3 col-md-4">유학의 목적</label>
+					<div class="col-xs-9 col-md-8">
 					<label class="radio-inline">
 						<input type="radio" name="purpose" value="영어회화">영어회화 
 					</label>
@@ -740,28 +738,28 @@ function show_consultation_online_form_func() {
 		</div>
 
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="currentenglevel">현재 영어 수준</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="currentenglevel">영어 수준</label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="currentenglevel" name="currentenglevel"></input>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="budget">예산</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="budget">예산</label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="budget" name="budget"></input>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">어학연수 경험</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4">연수 경험</label>
+					<div class="col-xs-9 col-md-8">
 						<label class="radio-inline">
 							<input type="radio" name="learningexperience" >있음 
 						</label>
@@ -771,10 +769,10 @@ function show_consultation_online_form_func() {
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="trainingperiod">연수기간</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="trainingperiod">연수기간</label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="trainingperiod" name="trainingperiod"></input>
 					</div>
 				</div>
@@ -783,8 +781,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-2" for="others">기타</label>
-					<div class="col-xs-10">
+					<label class="control-label col-xs-3 col-md-4" for="others">기타</label>
+					<div class="col-xs-9 col-md-8">
 						<textarea class="form-control" rows=4 width="100%" id="others" name="others"></textarea>
 					</div>
 				</div>
@@ -793,7 +791,9 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
+					<div class="col-xs-12">
 					<button id="send-consultation" class="btn btn-danger">유학상담 신청하기</button>
+				</div>
 				</div>
 			</div>
 		</div>
@@ -844,18 +844,18 @@ function show_online_registration_form_func() {
 	?>
 	<div class="form-horizontal">
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="studentname">이름 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="studentname">이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="studentname" name="studentname"></input>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="englishname">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="englishname">영문이름 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="englishname" name="englishname"></input>
 					</div>
 				</div>
@@ -864,36 +864,36 @@ function show_online_registration_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-2" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-10">
+					<label class="control-label col-xs-3" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9">
 						<input class="form-control" id="email" name="email"></input>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="country">국가 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="country">국가 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="country" name="country"></input>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="phone">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="phone">전화번호 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="phone" name="phone"></input>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4">성별</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4">성별</label>
+					<div class="col-xs-9 col-md-8">
 						<label class="radio-inline">
 				      		<input type="radio" name="gender" value="M">남
 					    </label>
@@ -903,26 +903,26 @@ function show_online_registration_form_func() {
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="birthday">생년월일 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="birthday">생년월일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="birthday" name="birthday"></input>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12" style="background-color:#c0c0c0;padding:30px 0;margin-bottom: 15px;">
+			<div class="col-xs-12" style="background-color:#c0c0c0;padding-top:30px; padding-bottom:30px;margin-bottom: 15px;">
 				<div class="row">
-					<div class="col-xs-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="program1">프로그램1 <span style="color:rgb(255,0,0)">*</span></label>
-							<div class="col-xs-8">
+							<label class="control-label col-xs-3 col-md-4" for="program1">프로그램1 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-9 col-md-8">
 								<select class="form-control" id="program1" name="program1">
-									<option value="1">ESL 421,</option>
+									<option value="1">ESL 421</option>
 									<option value="2">ESL 521</option>
-									<option value="3">ESL, 611</option>
+									<option value="3">ESL 611</option>
 									<option value="4">Intensive IELTS</option>
 									<option value="5">Intensive TOEIC</option>
 									<option value="6">IELTS Guarantee</option>
@@ -935,12 +935,12 @@ function show_online_registration_form_func() {
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="dormitory1">기숙사 <span style="color:rgb(255,0,0)">*</span></label>
-							<div class="col-xs-8">
+							<label class="control-label col-xs-3 col-md-4" for="dormitory1">기숙사 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-9 col-md-8">
 								<select class="form-control" id="dormitory1" name="dormitory1">
-									<option value="1">Yanco Center 2 ACC</option>
+									<option value="1">Yangco Center 2 ACC</option>
 									<option value="2">Yangco Center 3 ACC</option>
 									<option value="3">Yangco Center 4 ACC</option>
 									<option value="4">E&amp;E Center 1 ACC</option>
@@ -952,24 +952,24 @@ function show_online_registration_form_func() {
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="trainingperiod1">연수기간 <span style="color:rgb(255,0,0)">*</span></label>
-							<div class="col-xs-8">
+							<label class="control-label col-xs-3 col-md-4" for="trainingperiod1">연수기간 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-9 col-md-8">
 								<input class="form-control" id="trainingperiod1" name="trainingperiod1" />
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="program2">프로그램2</label>
-							<div class="col-xs-8">
+							<label class="control-label col-xs-3 col-md-4" for="program2">프로그램2</label>
+							<div class="col-xs-9 col-md-8">
 								<select class="form-control" id="program1" name="program2">
-									<option value="1">ESL 421,</option>
+									<option value="1">ESL 421</option>
 									<option value="2">ESL 521</option>
-									<option value="3">ESL, 611</option>
+									<option value="3">ESL 611</option>
 									<option value="4">Intensive IELTS</option>
 									<option value="5">Intensive TOEIC</option>
 									<option value="6">IELTS Guarantee</option>
@@ -982,12 +982,12 @@ function show_online_registration_form_func() {
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="dormitory2">기숙사</label>
-							<div class="col-xs-8">
+							<label class="control-label col-xs-3 col-md-4" for="dormitory2">기숙사</label>
+							<div class="col-xs-9 col-md-8">
 								<select class="form-control" id="dormitory2" name="dormitory2">
-									<option value="1">Yanco Center 2 ACC</option>
+									<option value="1">Yangco Center 2 ACC</option>
 									<option value="2">Yangco Center 3 ACC</option>
 									<option value="3">Yangco Center 4 ACC</option>
 									<option value="4">E&amp;E Center 1 ACC</option>
@@ -999,10 +999,10 @@ function show_online_registration_form_func() {
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="form-group">
-							<label class="control-label col-xs-4" for="trainingperiod2">연수기간 <span style="color:rgb(255,0,0)">*</span></label>
-							<div class="col-xs-8">
+							<label class="control-label col-xs-3 col-md-4" for="trainingperiod2">연수기간 <span style="color:rgb(255,0,0)">*</span></label>
+							<div class="col-xs-9 col-md-8">
 								<input class="form-control" id="trainingperiod2" name="trainingperiod2" />
 							</div>
 						</div>
@@ -1011,18 +1011,18 @@ function show_online_registration_form_func() {
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="emergencycontact">비상연락처</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="emergencycontact">비상연락처</label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="emergencycontact" name="emergencycontact"></input>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="emergencyphone">전화번호</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="emergencyphone">전화번호</label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="emergencyphone" name="emergencyphone"></input>
 					</div>
 				</div>
@@ -1031,8 +1031,8 @@ function show_online_registration_form_func() {
 		<div class="row">
 			<div class="col-xs-12 col-md-6">
 				<div class="form-group">
-					<label class="control-label col-xs-4" for="relationship">학생과의 관계</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="relationship">관계</label>
+					<div class="col-xs-9 col-md-8">
 						<input class="form-control" id="relationship" name="relationship"></input>
 					</div>
 				</div>
@@ -1041,8 +1041,8 @@ function show_online_registration_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-2" for="memo">메모</label>
-					<div class="col-xs-8">
+					<label class="control-label col-xs-3 col-md-4" for="memo">메모</label>
+					<div class="col-xs-9 col-md-8">
 						<textarea class="form-control" id="memo" name="memo"></textarea>
 					</div>
 				</div>
@@ -1051,7 +1051,9 @@ function show_online_registration_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
+<div class="col-xs-12">
 					<button id="send-consultation" class="btn btn-danger">온라인 신청서 보내기</button>
+		</div>
 				</div>
 			</div>
 		</div>
