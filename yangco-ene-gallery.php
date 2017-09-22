@@ -16,7 +16,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-xs-12">
+		<div class="col-md-offset-1 col-xs-12 col-md-10">
 			<?= listGalleryImage('yangco-gallery'); ?>
 		</div>
 	</div>
@@ -26,7 +26,7 @@
                 </div>
         </div>
 	<div class="row">
-		<div class="col-xs-12">
+		<div class="col-md-offset-1 col-xs-12 col-md-10">
 			<?= listGalleryImage('ene-gallery'); ?>
 		</div>
 	</div>
@@ -36,7 +36,7 @@
         <div class="container">
                 <div class="row">
                         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
-                                <button style="background-color: transparent; border-radius: 10px; border: 1px solid #fff; padding: 10px; width: 100%">단체픽업일</button>
+                                <a href="http://talk-academy.kr/official-pickup-dates/" style="background-color: transparent; border-radius: 10px; border: 1px solid #fff; padding: 10px;display:block;color:#fff;text-align:center;">단체픽업일</a>
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
                                 <p style="line-height: 40px;">
@@ -47,7 +47,7 @@
 
                 <div class="row">
                         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
-                                <button style="background-color: transparent; border-radius: 10px; border: 1px solid #fff; padding: 10px; width: 100%">연수후기</button>
+                                <a href="http://talk-academy.kr/experiences/" style="background-color: transparent; border-radius: 10px; border: 1px solid #fff; padding: 10px;display:block;color:#fff;text-align:center;">연수후기</a>
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
                                 <p style="line-height: 40px;">
@@ -58,7 +58,7 @@
 
                 <div class="row">
                         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
-                                <button style="background-color: transparent; border-radius: 10px; border: 1px solid #fff; padding: 10px; width: 100%">3D학원시설 보기</button>
+                                <a href="http://3d.jesolution.co.kr/canitalk/talk_yangco/" style="background-color: transparent; border-radius: 10px; border: 1px solid #fff; padding: 10px;display:block;color:#fff;text-align:center;">3D학원시설 보기</a>
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
                                 <p style="line-height: 40px;">

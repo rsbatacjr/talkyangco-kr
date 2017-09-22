@@ -28,7 +28,7 @@ get_header();
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.kr/elts/';">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.kr/ielts/';">
 								<strong>유학, 이민</strong>
 								<p>Intensive IELTS</p>
 							</div>
@@ -46,7 +46,7 @@ get_header();
 			</div>
 		</div>
 		<div id="about-container" class="col-xs-12 col-sm-6 col-md-4">
-			<div id="about">
+			<div id="about" onclick="javascript:window.location='http://3d.jesolution.co.kr/canitalk/talk_yangco/';">
 				<div class="mask">
 					<h2 style='background-color:transparent'>학원 둘러보기</h2>
 					<div id="about-normal">
