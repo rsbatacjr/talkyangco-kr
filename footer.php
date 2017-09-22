@@ -45,7 +45,7 @@
 										<li><a href="/more-about-talk">토크의 학습방법</a></li>
 										<li>&nbsp;</li>
 										<li><a href="http://talk-academy.kr/yangco-esl/">ESL 421, 521, 611</a></li>
-										<li><a href="http://talk-academy.kr/elts/">IELTS</a></li>
+										<li><a href="http://talk-academy.kr/ielts/">IELTS</a></li>
 										<li><a href="http://talk-academy.kr/toiec/">TOEIC</a></li>
 										<li><a href="http://talk-academy.kr/power-speaking/">Power Speaking</a></li>
 										<li><a href="http://talk-academy.kr/job-ready/">Working Holiday</a></li>
@@ -157,7 +157,7 @@
 										<div id="collapse4" class="panel-collapse collapse">
 									      <div class="panel-body">
 											<a href="http://talk-academy.kr/yangco-esl/">ESL 421, 521, 611</a>
-											<a href="http://talk-academy.kr/elts/">IELTS</a>
+											<a href="http://talk-academy.kr/ielts/">IELTS</a>
 											<a href="http://talk-academy.kr/toiec/">TOEIC</a>
 											<a href="http://talk-academy.kr/power-speaking/">Power Speaking</a>
 											<a href="http://talk-academy.kr/job-ready/">Working Holiday</a>

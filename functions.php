@@ -607,8 +607,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-3 col-md-4" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-9 col-md-8">
+					<label class="control-label col-xs-3 col-md-2" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-10">
 						<input class="form-control" id="email" name="email"></input>
 					</div>
 				</div>
@@ -677,8 +677,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
 				<div class="form-group">
-					<label class="control-label col-xs-3 col-md-4">기숙사 유형</label>
-					<div class="col-xs-9 col-md-8">
+					<label class="control-label col-xs-3 col-md-3">기숙사 유형</label>
+					<div class="col-xs-9 col-md-9">
 					<label class="radio-inline">
 						<input type="radio" name="dormitorytype" value="1인실">1인실 
 					</label>
@@ -704,8 +704,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-3 col-md-4">유학의 목적</label>
-					<div class="col-xs-9 col-md-8">
+					<label class="control-label col-xs-3 col-md-2">유학의 목적</label>
+					<div class="col-xs-9 col-md-10">
 					<label class="radio-inline">
 						<input type="radio" name="purpose" value="영어회화">영어회화 
 					</label>
@@ -781,8 +781,8 @@ function show_consultation_online_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-3 col-md-4" for="others">기타</label>
-					<div class="col-xs-9 col-md-8">
+					<label class="control-label col-xs-3 col-md-2" for="others">기타</label>
+					<div class="col-xs-9 col-md-10">
 						<textarea class="form-control" rows=4 width="100%" id="others" name="others"></textarea>
 					</div>
 				</div>
@@ -864,8 +864,8 @@ function show_online_registration_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-3" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
-					<div class="col-xs-9">
+					<label class="control-label col-xs-3 col-md-2" for="email">이메일 <span style="color:rgb(255,0,0)">*</span></label>
+					<div class="col-xs-9 col-md-10">
 						<input class="form-control" id="email" name="email"></input>
 					</div>
 				</div>
@@ -1041,8 +1041,8 @@ function show_online_registration_form_func() {
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
-					<label class="control-label col-xs-3 col-md-4" for="memo">메모</label>
-					<div class="col-xs-9 col-md-8">
+					<label class="control-label col-xs-3 col-md-2" for="memo">메모</label>
+					<div class="col-xs-9 col-md-10">
 						<textarea class="form-control" id="memo" name="memo"></textarea>
 					</div>
 				</div>
