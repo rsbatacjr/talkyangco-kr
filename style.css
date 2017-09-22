@@ -546,7 +546,21 @@ h2 {
 	height: auto;
 	margin-bottom: 15px;
 }
+.bldg-img {
+	height: 250px !important;
+}
+#width_150 {
+	width:80px;
+}
+.filler_150 { height: 0; }
 @media (min-width: 768px) {
+	.bldg-img {
+		height:311px;
+	}
+	#width_150 {
+		width: 150px;
+	}
+	.filler_150 { height: 150px; }
 	.mobile-fonts {
 		font-size: 100%;
 	}
