@@ -126,12 +126,12 @@
         <header>
           <div id="weblinks">
               <div class="container">
-                <a href="" style="border: 1px solid #fff; padding: 3px 5px; font-size: 12px; border-radius: 3px">AGENCY</a>&nbsp;&nbsp;
-                <a href="#">ENG</a>
-                <a href="#">JPN</a>
-                <a href="#">TW</a>
-                <a href="#">CN</a>
-                <a href="#">VN</a>
+                <a href="http://talkonline.cafe24.com/2013/" style="border: 1px solid #fff; padding: 3px 5px; font-size: 12px; border-radius: 3px">AGENCY</a>&nbsp;&nbsp;
+                <a href="http://talk-academy.com">ENG</a>
+                <a href="http://talk-academy.jp">JPN</a>
+                <a href="http://talk-academy.tw">TW</a>
+                <a href="http://talk-academy.cn">CN</a>
+                <a href="http://talk-academy.vn">VN</a>
               </div>
             </div>
             <div class="container">
