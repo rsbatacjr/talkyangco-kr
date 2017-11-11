@@ -160,6 +160,14 @@
                       </div>
                       </div>
                     </div>
+		    <div class="visible-xs" style="padding-top: 20px;">
+                      <form action="/" method="get" role="search">
+                          <input name="s" type="text" class="form-control" style="float: left;" />
+                          <span class="input-group-addon" style="width: 40px; height: 34px; float: left;" onclick="javascript:$(this).closest('form').submit();">
+                              <i class="fa fa-search"></i>
+                          </span>
+                        </form>
+                    </div>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse-xs">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>

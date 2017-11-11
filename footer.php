@@ -267,6 +267,9 @@
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
+			if($(window).width() <= 764) {
+				$('input[name="s"]').css({"width": $(this).width() - 220});
+			}
 			$('.dropdown-submenu').on("mousemove", function(e){
 				var ul = $(this).find('ul');
 
@@ -308,7 +311,7 @@
 		$(document).on("scroll", function() {
 			if ($(this).scrollTop() >= 119)
 			{
-				console.log($(this).scrollTop());
+				//console.log($(this).scrollTop());
 				$('#floating-menu').toggleClass("hidden", false);
 			}
 			else if($(this).scrollTop() <= 119)
@@ -316,6 +319,8 @@
 				$('#floating-menu').toggleClass("hidden", true);
 			}
 		})
-
+		$(window).on('resize', function() {
+			$('input[name="s"]').css({"width": $(this).width() - 220});
+		});
 	</script>
 </html>
