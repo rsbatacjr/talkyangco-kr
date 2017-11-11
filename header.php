@@ -26,14 +26,6 @@
 
 </head>
 	<body>
-    <!-- <div id="floating-search-tb" class="hidden">
-      <div class="input-group">
-          <input id="s" type="text" class="form-control"/>
-          <span class="input-group-addon">
-              <i class="fa fa-search"></i>
-          </span>
-      </div>
-    </div> -->
     <div id="floating-menu" class="hidden hidden-xs hidden-sm">
       <div class="container">
               <div class="col-xs-12 col-sm-12 col-md-8">
@@ -159,14 +151,6 @@
                         </div>
                       </div>
                       </div>
-                    </div>
-		    <div class="visible-xs" style="padding-top: 20px;">
-                      <form action="/" method="get" role="search">
-                          <input name="s" type="text" class="form-control" style="float: left;" />
-                          <span class="input-group-addon" style="width: 40px; height: 34px; float: left;" onclick="javascript:$(this).closest('form').submit();">
-                              <i class="fa fa-search"></i>
-                          </span>
-                        </form>
                     </div>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse-xs">
                       <span class="sr-only">Toggle navigation</span>

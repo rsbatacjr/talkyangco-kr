@@ -16,7 +16,7 @@ get_header();
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.kr/esl-421-521-611/';">
+							<div class="course-builder" onclick="javascript:window.location = 'http://talk-academy.kr/yangco-esl/';">
 								<strong>회화과정</strong>
 								<p>ESL 521</p>
 							</div>
@@ -62,7 +62,6 @@ get_header();
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 		<div id="experience-container" class="col-xs-12 col-sm-6 col-md-4">
@@ -143,7 +142,7 @@ get_header();
 										<div class="plan-list-normal">
 											<p><br>1~3주<br>단기 어학연수</p>
 											<span class="plus-sign">+</span>
-										</div>	
+										</div>
 										<div class="plan-list-hover">
 											<a style="color:#666" href='http://talk-academy.kr/short-term-study/'>
 												<p>시간이 부족하시면 영어에 대한 올바른 공부방법과 회화를 단기에 만들어보세요. </p>
@@ -182,7 +181,6 @@ get_header();
 												<span class="next-button-black"></span>
 											</a>
 										</div>
-										
 									</div>
 								</div>
 								<div class="plan-list-parent col-xs-12 col-md-4">

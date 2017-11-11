@@ -267,9 +267,6 @@
 	<script type="text/javascript" src="<?php echo THEME_URI ?>/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			if($(window).width() <= 764) {
-				$('input[name="s"]').css({"width": $(this).width() - 220});
-			}
 			$('.dropdown-submenu').on("mousemove", function(e){
 				var ul = $(this).find('ul');
 
@@ -277,9 +274,6 @@
 				{
 					ul.css({"display": "inline-block"});
 				}
-				// $(this).next('ul').toggle();
-				// e.stopPropagation();
-				// e.preventDefault();
   			}).on("mouseout", function(e) {
   				$(this).find('ul').css({"display": "none"});
   			});
@@ -303,15 +297,11 @@
 		$(document).on('click', '.search-lens', function() {
 			$(this).find('.floating-search-tb').toggleClass('hidden', false);
 			$(this).find('.floating-search-tb').find('input[name="s"]').focus();
-			// $(this).find('.floating-search-tb').toggleClass('hidden', !$(this).find('.floating-search-tb').hasClass("hidden"));
-			// console.log(parseInt($(this).position().top));
-			// $('#floating-search-tb').css("top", (parseInt($(this).position().top) + parseInt($(this).height()) + parseInt($(this).css("margin-top")))+ "px");
 		});
 
 		$(document).on("scroll", function() {
 			if ($(this).scrollTop() >= 119)
 			{
-				//console.log($(this).scrollTop());
 				$('#floating-menu').toggleClass("hidden", false);
 			}
 			else if($(this).scrollTop() <= 119)
@@ -319,8 +309,5 @@
 				$('#floating-menu').toggleClass("hidden", true);
 			}
 		})
-		$(window).on('resize', function() {
-			$('input[name="s"]').css({"width": $(this).width() - 220});
-		});
 	</script>
 </html>

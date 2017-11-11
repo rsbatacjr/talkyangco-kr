@@ -1,3 +1,2 @@
 <?php
-
-    <?php do_action('installation_point'); ?>
+    do_action('installation_point'); 
