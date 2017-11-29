@@ -254,7 +254,7 @@
 						<div class="row">
 							<div class="col-md-12 text-center">
 								<p><br/><br/>
-한국사무실 : 서울시 강남구 서초동 253-12 두산베어스텔 1002호 (우:06611) 강남역 7번추구 070-8226-5659<br/>
+한국사무실 : 서울시 강남구 서초동 253-12 두산베어스텔 1001호 (우:06611) 강남역 7번출구 070-8226-5659<br/>
 								<a href="mailto:baguiotalk@gmail.com">baguiotalk@gmail.com</a> &copy; <i>Canitalk Academy Inc. All rights reserved.</i></p>
 							</div>
 						</div>
