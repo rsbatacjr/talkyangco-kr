@@ -158,7 +158,7 @@ get_header();
 								<div class="plan-list-parent col-xs-12 col-md-4">
 									<div class="plan-list">
 										<div class="plan-list-normal">
-											<p><br>TOEIC<br>600, 800, 900</p>
+											<p><br>TOEIC<br>600, 700, 800, 900</p>
 											<span class="plus-sign">+</span>
 										</div>
 										<div class="plan-list-hover">
