@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="http://www.talk-academy.kr">
-    <meta property="og:type" content="talk academy">
+    <meta property="og:type" content="토크어학원">
     <meta property="og:title" content="토크어학원">
     <meta property="og:description" content="필리핀 어학연수, 바기오 어학원, 회화, 토익, 아이엘츠 전문">
     <meta property="og:url" content="http://www.talk-academy.kr">
     <meta name="naver-site-verification" content="4c80f68d2a280dce1bf1614eac8aba75ec227c55"/>
-    <title><?php bloginfo('name'); ?> <?php wp_title('&laquo;', true, 'right'); ?></title>
-    <meta name="description" content="<?php bloginfo('description'); ?>" />
+    <title>토크어학원</title>
+    <meta name="description" content="필리핀 어학연수, 바기오 어학원, 회화, 토익, 아이엘츠 전문" />
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
