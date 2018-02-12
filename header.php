@@ -3,10 +3,10 @@
 <head>
     <title>토크어학원</title>
     <meta name="naver-site-verification" content="4c80f68d2a280dce1bf1614eac8aba75ec227c55"/>
-    <meta name="description" content="필리핀 어학연수, 바기오 어학원, 회화, 토익, 아이엘츠 전문" />
+    <meta name="description" content="필리핀 어학연수, 바기오토크 어학원, 회화, 토익, 아이엘츠 전문" />
     <meta property="og:type" content="website">
     <meta property="og:title" content="토크어학원">
-    <meta property="og:description" content="필리핀 어학연수, 바기오 어학원, 회화, 토익, 아이엘츠 전문">
+    <meta property="og:description" content="필리핀 어학연수, 바기오토크 어학원, 회화, 토익, 아이엘츠 전문">
     <meta property="og:url" content="http://www.talk-academy.kr">
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
