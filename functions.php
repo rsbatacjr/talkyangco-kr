@@ -7,6 +7,11 @@ require_once('manage-weblinks.php');
 
 add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 
+function kia_add_favicon(){ ?>
+    <!-- Custom Favicons -->
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri();?>/favicon.ico"/>
+    <?php }
+add_action('wp_head','kia_add_favicon');
 
 function talk_content_filter($content)
 {
